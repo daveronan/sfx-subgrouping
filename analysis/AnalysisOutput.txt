@@ -1,0 +1,7888 @@
+save('AdobeAllResults.mat')
+analysisWorkflow
+
+row =
+
+        8976
+
+Row: 8976, pDepth = 2, loss = 0.002673
+
+Decision tree for classification
+1  if first_peak_weight_mean<0.0357145 then node 2 elseif first_peak_weight_mean>=0.0357145 then node 3 else 8975
+2  class = 8974
+3  class = 8975
+
+
+row =
+
+        8974
+
+Row: 8974, pDepth = 20, loss = 0.079383
+
+Decision tree for classification
+1  if silence_rate_60dB_mean<0.495098 then node 2 elseif silence_rate_60dB_mean>=0.495098 then node 3 else 8966
+2  class = 8963
+3  class = 8966
+
+
+row =
+
+        8975
+
+Row: 8975, pDepth = 37, loss = 0.153664
+
+Decision tree for classification
+1  if silence_rate_60dB_mean<0.47305 then node 2 elseif silence_rate_60dB_mean>=0.47305 then node 3 else 8972
+2  class = 8973
+3  class = 8972
+
+
+row =
+
+        8963
+
+Row: 8963, pDepth = 11, loss = 0.102637
+
+Decision tree for classification
+1  if spectral_decrease_mean<0.866593 then node 2 elseif spectral_decrease_mean>=0.866593 then node 3 else 8959
+2  class = 8930
+3  class = 8959
+
+
+row =
+
+        8966
+
+Row: 8966, pDepth = 16, loss = 0.129073
+
+Decision tree for classification
+1  if spectral_centroid_max<0.413299 then node 2 elseif spectral_centroid_max>=0.413299 then node 3 else 8956
+2  class = 8928
+3  class = 8956
+
+
+row =
+
+        8972
+
+Row: 8972, pDepth = 15, loss = 0.112521
+
+Decision tree for classification
+1  if second_peak_bpm_max<0.262195 then node 2 elseif second_peak_bpm_max>=0.262195 then node 3 else 8971
+2  class = 8971
+3  class = 8969
+
+
+row =
+
+        8973
+
+Row: 8973, pDepth = 16, loss = 0.152279
+
+Decision tree for classification
+1  if second_peak_weight_min<0.0616035 then node 2 elseif second_peak_weight_min>=0.0616035 then node 3 else 8970
+2  class = 8970
+3  class = 8967
+
+
+row =
+
+        8930
+
+Row: 8930, pDepth = 3, loss = 0.135417
+
+Decision tree for classification
+1  if scvalleys_min_3<0.509141 then node 2 elseif scvalleys_min_3>=0.509141 then node 3 else 8879
+2  class = 8879
+3  class = 8863
+
+
+row =
+
+        8959
+
+Row: 8959, pDepth = 11, loss = 0.145977
+
+Decision tree for classification
+1  if spectral_flatness_db_mean<0.271369 then node 2 elseif spectral_flatness_db_mean>=0.271369 then node 3 else 8953
+2  class = 8953
+3  class = 8934
+
+
+row =
+
+        8928
+
+Row: 8928, pDepth = 8, loss = 0.099029
+
+Decision tree for classification
+1  if silence_rate_30dB_dmean2<0.017544 then node 2 elseif silence_rate_30dB_dmean2>=0.017544 then node 3 else 8904
+2  class = 8904
+3  class = 8903
+
+
+row =
+
+        8956
+
+Row: 8956, pDepth = 12, loss = 0.124884
+
+Decision tree for classification
+1  if gfcc_median_1<0.520562 then node 2 elseif gfcc_median_1>=0.520562 then node 3 else 8950
+2  if beats_loudness_band_ratio_mean_5<0.541448 then node 4 elseif beats_loudness_band_ratio_mean_5>=0.541448 then node 5 else 8923
+3  class = 8950
+4  class = 8923
+5  class = 8950
+
+
+row =
+
+        8969
+
+Row: 8969, pDepth = 18, loss = 0.185809
+
+Decision tree for classification
+ 1  if spectral_energy_var<0.0002945 then node 2 elseif spectral_energy_var>=0.0002945 then node 3 else 8960
+ 2  if second_peak_bpm_min<0.593496 then node 4 elseif second_peak_bpm_min>=0.593496 then node 5 else 8949
+ 3  if second_peak_bpm_min<0.310976 then node 6 elseif second_peak_bpm_min>=0.310976 then node 7 else 8960
+ 4  class = 8949
+ 5  if spectral_energy_var<1.5e-06 then node 8 elseif spectral_energy_var>=1.5e-06 then node 9 else 8949
+ 6  class = 8949
+ 7  class = 8960
+ 8  class = 8949
+ 9  if spectral_decrease_mean<0.900607 then node 10 elseif spectral_decrease_mean>=0.900607 then node 11 else 8960
+10  if strongdecay<0.0611825 then node 12 elseif strongdecay>=0.0611825 then node 13 else 8960
+11  class = 8949
+12  class = 8960
+13  if spectral_decrease_var<3.5e-05 then node 14 elseif spectral_decrease_var>=3.5e-05 then node 15 else 8949
+14  if spectral_decrease_mean<0.900432 then node 16 elseif spectral_decrease_mean>=0.900432 then node 17 else 8949
+15  class = 8960
+16  class = 8949
+17  class = 8960
+
+
+row =
+
+        8971
+
+Row: 8971, pDepth = 23, loss = 0.178851
+
+Decision tree for classification
+1  if first_peak_weight_max<0.894445 then node 2 elseif first_peak_weight_max>=0.894445 then node 3 else 8965
+2  if beats_loudness_band_ratio_max_5<0.671258 then node 4 elseif beats_loudness_band_ratio_max_5>=0.671258 then node 5 else 8962
+3  class = 8965
+4  class = 8962
+5  class = 8965
+
+
+row =
+
+        8967
+
+Row: 8967, pDepth = 4, loss = 0.037081
+
+Decision tree for classification
+1  if spectral_spread_mean<0.015563 then node 2 elseif spectral_spread_mean>=0.015563 then node 3 else 8961
+2  class = 8964
+3  class = 8961
+
+
+row =
+
+        8970
+
+Row: 8970, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_spread_mean<0.015563 then node 2 elseif spectral_spread_mean>=0.015563 then node 3 else 8961
+2  class = 8964
+3  class = 8961
+
+
+row =
+
+        8863
+
+Row: 8863, pDepth = 3, loss = 0.087912
+
+Decision tree for classification
+1  if mfcc_dmean_5<0.243998 then node 2 elseif mfcc_dmean_5>=0.243998 then node 3 else 8745
+2  class = 8745
+3  class = 8722
+
+
+row =
+
+        8879
+
+Row: 8879, pDepth = 1, loss = 0.089109
+
+Decision tree for classification
+1  if spectral_energyband_middle_high_mean<0.0070985 then node 2 elseif spectral_energyband_middle_high_mean>=0.0070985 then node 3 else 8841
+2  class = 8693
+3  class = 8841
+
+
+row =
+
+        8934
+
+Row: 8934, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_energyband_middle_high_mean<0.0070985 then node 2 elseif spectral_energyband_middle_high_mean>=0.0070985 then node 3 else 8841
+2  class = 8693
+3  class = 8841
+
+
+row =
+
+        8953
+
+Row: 8953, pDepth = 12, loss = 0.169591
+
+Decision tree for classification
+1  if pitch_mean<0.103532 then node 2 elseif pitch_mean>=0.103532 then node 3 else 8939
+2  class = 8939
+3  class = 8943
+
+
+row =
+
+        8903
+
+Row: 8903, pDepth = 2, loss = 0.065089
+
+Decision tree for classification
+1  if scvalleys_mean_0<0.660545 then node 2 elseif scvalleys_mean_0>=0.660545 then node 3 else 8812
+2  class = 8735
+3  class = 8812
+
+
+row =
+
+        8904
+
+Row: 8904, pDepth = 5, loss = 0.127168
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_4<5e-07 then node 2 elseif beats_loudness_band_ratio_max_4>=5e-07 then node 3 else 8854
+2  class = 8815
+3  class = 8854
+
+
+row =
+
+        8923
+
+Row: 8923, pDepth = 7, loss = 0.188679
+
+Decision tree for classification
+1  if gfcc_dmean_1<0.15129 then node 2 elseif gfcc_dmean_1>=0.15129 then node 3 else 8898
+2  if beats_loudness_band_ratio_max_0<0.73234 then node 4 elseif beats_loudness_band_ratio_max_0>=0.73234 then node 5 else 8901
+3  class = 8898
+4  class = 8901
+5  class = 8898
+
+
+row =
+
+        8950
+
+Row: 8950, pDepth = 6, loss = 0.056291
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.258765 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.258765 then node 3 else 8922
+2  class = 8922
+3  class = 8909
+
+
+row =
+
+        8949
+
+Row: 8949, pDepth = 11, loss = 0.166455
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.414874 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.414874 then node 3 else 8948
+2  class = 8948
+3  class = 8926
+
+
+row =
+
+        8960
+
+Row: 8960, pDepth = 17, loss = 0.197952
+
+Decision tree for classification
+1  if max_der_before_max_min<0.397496 then node 2 elseif max_der_before_max_min>=0.397496 then node 3 else 8947
+2  class = 8944
+3  class = 8947
+
+
+row =
+
+        8962
+
+Row: 8962, pDepth = 11, loss = 0.144491
+
+Decision tree for classification
+1  if spectral_skewness_median<0.0668925 then node 2 elseif spectral_skewness_median>=0.0668925 then node 3 else 8958
+2  class = 8958
+3  class = 8931
+
+
+row =
+
+        8965
+
+Row: 8965, pDepth = 18, loss = 0.195359
+
+Decision tree for classification
+1  if scvalleys_mean_0<0.684385 then node 2 elseif scvalleys_mean_0>=0.684385 then node 3 else 8957
+2  if scvalleys_min_2<0.395652 then node 4 elseif scvalleys_min_2>=0.395652 then node 5 else 8937
+3  class = 8957
+4  class = 8937
+5  class = 8957
+
+
+row =
+
+        8961
+
+Row: 8961, pDepth = 3, loss = 0.022222
+
+Decision tree for classification
+1  if strongdecay<0.077154 then node 2 elseif strongdecay>=0.077154 then node 3 else 8952
+2  class = 8885
+3  class = 8952
+
+
+row =
+
+        8964
+
+Row: 8964, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if strongdecay<0.077154 then node 2 elseif strongdecay>=0.077154 then node 3 else 8952
+2  class = 8885
+3  class = 8952
+
+
+row =
+
+        8942
+
+Row: 8942, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if strongdecay<0.077154 then node 2 elseif strongdecay>=0.077154 then node 3 else 8952
+2  class = 8885
+3  class = 8952
+
+
+row =
+
+        8968
+
+Row: 8968, pDepth = 14, loss = 0.165846
+
+Decision tree for classification
+1  if gfcc_min_2<0.387343 then node 2 elseif gfcc_min_2>=0.387343 then node 3 else 8954
+2  class = 8951
+3  class = 8954
+
+
+row =
+
+        8722
+
+Row: 8722, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_min_2<0.387343 then node 2 elseif gfcc_min_2>=0.387343 then node 3 else 8954
+2  class = 8951
+3  class = 8954
+
+
+row =
+
+        8745
+
+Row: 8745, pDepth = 1, loss = 0.057971
+
+Decision tree for classification
+1  if spectral_energyband_high_max<0.193083 then node 2 elseif spectral_energyband_high_max>=0.193083 then node 3 else 8670
+2  class = 8670
+3  class = 8018
+
+
+row =
+
+        8693
+
+Row: 8693, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_energyband_high_max<0.193083 then node 2 elseif spectral_energyband_high_max>=0.193083 then node 3 else 8670
+2  class = 8670
+3  class = 8018
+
+
+row =
+
+        8841
+
+Row: 8841, pDepth = 2, loss = 0.181818
+
+Decision tree for classification
+1  if zerocrossingrate_dmean2<0.091876 then node 2 elseif zerocrossingrate_dmean2>=0.091876 then node 3 else 8771
+2  class = 8771
+3  if erb_bands_max_4<0.009823 then node 4 elseif erb_bands_max_4>=0.009823 then node 5 else 8771
+4  class = 8794
+5  class = 8771
+
+
+row =
+
+        7760
+
+Row: 7760, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if zerocrossingrate_dmean2<0.091876 then node 2 elseif zerocrossingrate_dmean2>=0.091876 then node 3 else 8771
+2  class = 8771
+3  if erb_bands_max_4<0.009823 then node 4 elseif erb_bands_max_4>=0.009823 then node 5 else 8771
+4  class = 8794
+5  class = 8771
+
+
+row =
+
+        8913
+
+Row: 8913, pDepth = 3, loss = 0.068966
+
+Decision tree for classification
+1  if spectral_energyband_middle_low_median<0.0083265 then node 2 elseif spectral_energyband_middle_low_median>=0.0083265 then node 3 else 8875
+2  class = 8875
+3  class = 8774
+
+
+row =
+
+        8939
+
+Row: 8939, pDepth = 5, loss = 0.118834
+
+Decision tree for classification
+1  if scvalleys_min_4<0.0737265 then node 2 elseif scvalleys_min_4>=0.0737265 then node 3 else 8925
+2  class = 8804
+3  class = 8925
+
+
+row =
+
+        8943
+
+Row: 8943, pDepth = 3, loss = 0.105042
+
+Decision tree for classification
+1  if spectral_contrast_dvar_5<0.231631 then node 2 elseif spectral_contrast_dvar_5>=0.231631 then node 3 else 8906
+2  class = 8906
+3  class = 8911
+
+
+row =
+
+        8735
+
+Row: 8735, pDepth = 1, loss = 0.051282
+
+Decision tree for classification
+1  if inharmonicity_mean<0.0605425 then node 2 elseif inharmonicity_mean>=0.0605425 then node 3 else 8380
+2  class = 8171
+3  class = 8380
+
+
+row =
+
+        8812
+
+Row: 8812, pDepth = 2, loss = 0.092308
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_5<0.0128005 then node 2 elseif beats_loudness_band_ratio_max_5>=0.0128005 then node 3 else 8759
+2  class = 8494
+3  class = 8759
+
+
+row =
+
+        8815
+
+Row: 8815, pDepth = 3, loss = 0.137255
+
+Decision tree for classification
+1  if scvalleys_mean_2<0.715351 then node 2 elseif scvalleys_mean_2>=0.715351 then node 3 else 8697
+2  class = 8697
+3  class = 8302
+
+
+row =
+
+        8854
+
+Row: 8854, pDepth = 2, loss = 0.186528
+
+Decision tree for classification
+ 1  if scvalleys_dvar_3<0.0380355 then node 2 elseif scvalleys_dvar_3>=0.0380355 then node 3 else 8765
+ 2  if pitch_dmean2<0.0069445 then node 4 elseif pitch_dmean2>=0.0069445 then node 5 else 8765
+ 3  if barkbands_dvar2_16<5e-07 then node 6 elseif barkbands_dvar2_16>=5e-07 then node 7 else 8734
+ 4  class = 8734
+ 5  if pitch_dmean2<0.10212 then node 8 elseif pitch_dmean2>=0.10212 then node 9 else 8765
+ 6  if pitch_dmean2<0.133033 then node 10 elseif pitch_dmean2>=0.133033 then node 11 else 8765
+ 7  if erb_bands_var_14<5e-07 then node 12 elseif erb_bands_var_14>=5e-07 then node 13 else 8734
+ 8  class = 8765
+ 9  if scvalleys_dvar_3<0.021109 then node 14 elseif scvalleys_dvar_3>=0.021109 then node 15 else 8734
+10  if pitch_dmean2<0.0082305 then node 16 elseif pitch_dmean2>=0.0082305 then node 17 else 8765
+11  class = 8734
+12  class = 8734
+13  if erb_bands_var_14<1.4e-05 then node 18 elseif erb_bands_var_14>=1.4e-05 then node 19 else 8734
+14  class = 8734
+15  class = 8765
+16  class = 8734
+17  class = 8765
+18  if scvalleys_dvar_3<0.0476555 then node 20 elseif scvalleys_dvar_3>=0.0476555 then node 21 else 8765
+19  class = 8734
+20  class = 8765
+21  class = 8734
+
+
+row =
+
+        8898
+
+Row: 8898, pDepth = 4, loss = 0.075099
+
+Decision tree for classification
+1  if barkbands_dmean_18<0.0001645 then node 2 elseif barkbands_dmean_18>=0.0001645 then node 3 else 8886
+2  if barkbands_dmean_15<1.15e-05 then node 4 elseif barkbands_dmean_15>=1.15e-05 then node 5 else 8362
+3  class = 8886
+4  class = 8886
+5  class = 8362
+
+
+row =
+
+        8901
+
+Row: 8901, pDepth = 4, loss = 0.058036
+
+Decision tree for classification
+1  if tristimulus_median_0<0.0025435 then node 2 elseif tristimulus_median_0>=0.0025435 then node 3 else 8860
+2  class = 8831
+3  class = 8860
+
+
+row =
+
+        8909
+
+Row: 8909, pDepth = 5, loss = 0.141509
+
+Decision tree for classification
+1  if zerocrossingrate_var<0.0237885 then node 2 elseif zerocrossingrate_var>=0.0237885 then node 3 else 8783
+2  class = 8741
+3  class = 8783
+
+
+row =
+
+        8922
+
+Row: 8922, pDepth = 6, loss = 0.145408
+
+Decision tree for classification
+1  if silence_rate_30dB_mean<0.974647 then node 2 elseif silence_rate_30dB_mean>=0.974647 then node 3 else 8880
+2  class = 8858
+3  class = 8880
+
+
+row =
+
+        8926
+
+Row: 8926, pDepth = 4, loss = 0.105263
+
+Decision tree for classification
+1  if spectral_spread_dvar2<0.152478 then node 2 elseif spectral_spread_dvar2>=0.152478 then node 3 else 8897
+2  class = 8897
+3  class = 8881
+
+
+row =
+
+        8948
+
+Row: 8948, pDepth = 5, loss = 0.164360
+
+Decision tree for classification
+1  if first_peak_spread_max<0.099624 then node 2 elseif first_peak_spread_max>=0.099624 then node 3 else 8933
+2  class = 8895
+3  class = 8933
+
+
+row =
+
+        8944
+
+Row: 8944, pDepth = 10, loss = 0.182203
+
+Decision tree for classification
+1  if spectral_decrease_min<0.975873 then node 2 elseif spectral_decrease_min>=0.975873 then node 3 else 8905
+2  class = 8905
+3  class = 8888
+
+
+row =
+
+        8947
+
+Row: 8947, pDepth = 9, loss = 0.137143
+
+Decision tree for classification
+1  if scvalleys_min_5<0.329405 then node 2 elseif scvalleys_min_5>=0.329405 then node 3 else 8940
+2  class = 8940
+3  class = 8893
+
+
+row =
+
+        8931
+
+Row: 8931, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_min_5<0.329405 then node 2 elseif scvalleys_min_5>=0.329405 then node 3 else 8940
+2  class = 8940
+3  class = 8893
+
+
+row =
+
+        8958
+
+Row: 8958, pDepth = 8, loss = 0.084151
+
+Decision tree for classification
+1  if scvalleys_max_1<0.574793 then node 2 elseif scvalleys_max_1>=0.574793 then node 3 else 8955
+2  class = 8935
+3  class = 8955
+
+
+row =
+
+        8937
+
+Row: 8937, pDepth = 7, loss = 0.156306
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.146952 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.146952 then node 3 else 8915
+2  if pitch_salience_mean<0.568618 then node 4 elseif pitch_salience_mean>=0.568618 then node 5 else 8915
+3  class = 8920
+4  class = 8920
+5  class = 8915
+
+
+row =
+
+        8957
+
+Row: 8957, pDepth = 9, loss = 0.097025
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.280122 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.280122 then node 3 else 8936
+2  class = 8936
+3  class = 8919
+
+
+row =
+
+        8885
+
+Row: 8885, pDepth = 1, loss = 0.039370
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.230278 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.230278 then node 3 else 8760
+2  class = 8707
+3  class = 8760
+
+
+row =
+
+        8952
+
+Row: 8952, pDepth = 10, loss = 0.158516
+
+Decision tree for classification
+1  if first_peak_spread_min<0.010566 then node 2 elseif first_peak_spread_min>=0.010566 then node 3 else 8918
+2  class = 8932
+3  if scvalleys_min_3<0.337108 then node 4 elseif scvalleys_min_3>=0.337108 then node 5 else 8918
+4  class = 8918
+5  if second_peak_spread_max<0.459388 then node 6 elseif second_peak_spread_max>=0.459388 then node 7 else 8918
+6  class = 8932
+7  class = 8918
+
+
+row =
+
+        8865
+
+Row: 8865, pDepth = 2, loss = 0.060241
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.228026 then node 2 elseif spectral_entropy_mean>=0.228026 then node 3 else 8677
+2  class = 8540
+3  class = 8677
+
+
+row =
+
+        8945
+
+Row: 8945, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.228026 then node 2 elseif spectral_entropy_mean>=0.228026 then node 3 else 8677
+2  class = 8540
+3  class = 8677
+
+
+row =
+
+        8657
+
+Row: 8657, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.228026 then node 2 elseif spectral_entropy_mean>=0.228026 then node 3 else 8677
+2  class = 8540
+3  class = 8677
+
+
+row =
+
+        8723
+
+Row: 8723, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.228026 then node 2 elseif spectral_entropy_mean>=0.228026 then node 3 else 8677
+2  class = 8540
+3  class = 8677
+
+
+row =
+
+        8951
+
+Row: 8951, pDepth = 5, loss = 0.193900
+
+Decision tree for classification
+1  if first_peak_weight_max<0.775 then node 2 elseif first_peak_weight_max>=0.775 then node 3 else 8941
+2  class = 8941
+3  class = 8938
+
+
+row =
+
+        8954
+
+Row: 8954, pDepth = 12, loss = 0.196311
+
+Decision tree for classification
+1  if zerocrossingrate_mean<0.10335 then node 2 elseif zerocrossingrate_mean>=0.10335 then node 3 else 8929
+2  class = 8924
+3  class = 8929
+
+
+row =
+
+        8579
+
+Row: 8579, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if zerocrossingrate_mean<0.10335 then node 2 elseif zerocrossingrate_mean>=0.10335 then node 3 else 8929
+2  class = 8924
+3  class = 8929
+
+
+row =
+
+        8628
+
+Row: 8628, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if zerocrossingrate_mean<0.10335 then node 2 elseif zerocrossingrate_mean>=0.10335 then node 3 else 8929
+2  class = 8924
+3  class = 8929
+
+
+row =
+
+        8018
+
+Row: 8018, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if zerocrossingrate_mean<0.10335 then node 2 elseif zerocrossingrate_mean>=0.10335 then node 3 else 8929
+2  class = 8924
+3  class = 8929
+
+
+row =
+
+        8670
+
+Row: 8670, pDepth = 1, loss = 0.118644
+
+Decision tree for classification
+1  if gfcc_median_2<0.442238 then node 2 elseif gfcc_median_2>=0.442238 then node 3 else 8606
+2  class = 8606
+3  class = 8650
+
+
+row =
+
+        8184
+
+Row: 8184, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_median_2<0.442238 then node 2 elseif gfcc_median_2>=0.442238 then node 3 else 8606
+2  class = 8606
+3  class = 8650
+
+
+row =
+
+        8637
+
+Row: 8637, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_median_2<0.442238 then node 2 elseif gfcc_median_2>=0.442238 then node 3 else 8606
+2  class = 8606
+3  class = 8650
+
+
+row =
+
+        8771
+
+Row: 8771, pDepth = 1, loss = 0.035714
+
+Decision tree for classification
+1  if erb_bands_dmean_3<0.576388 then node 2 elseif erb_bands_dmean_3>=0.576388 then node 3 else 8633
+2  class = 8633
+3  class = 8430
+
+
+row =
+
+        8794
+
+Row: 8794, pDepth = 1, loss = 0.095238
+
+Decision tree for classification
+1  if barkbands_median_2<1.65e-05 then node 2 elseif barkbands_median_2>=1.65e-05 then node 3 else 8217
+2  class = 8534
+3  class = 8217
+
+
+row =
+
+        5827
+
+Row: 5827, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_median_2<1.65e-05 then node 2 elseif barkbands_median_2>=1.65e-05 then node 3 else 8217
+2  class = 8534
+3  class = 8217
+
+
+row =
+
+        7156
+
+Row: 7156, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_median_2<1.65e-05 then node 2 elseif barkbands_median_2>=1.65e-05 then node 3 else 8217
+2  class = 8534
+3  class = 8217
+
+
+row =
+
+        8774
+
+Row: 8774, pDepth = 2, loss = 0.061224
+
+Decision tree for classification
+1  if barkbands_mean_17<8.1e-05 then node 2 elseif barkbands_mean_17>=8.1e-05 then node 3 else 8621
+2  class = 8621
+3  class = 8312
+
+
+row =
+
+        8875
+
+Row: 8875, pDepth = 3, loss = 0.104000
+
+Decision tree for classification
+1  if spectral_flux_max<0.200327 then node 2 elseif spectral_flux_max>=0.200327 then node 3 else 8870
+2  class = 8870
+3  if pitch_instantaneous_confidence_var<0.108638 then node 4 elseif pitch_instantaneous_confidence_var>=0.108638 then node 5 else 8799
+4  class = 8870
+5  class = 8799
+
+
+row =
+
+        8804
+
+Row: 8804, pDepth = 2, loss = 0.138614
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.50131 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.50131 then node 3 else 8726
+2  class = 8743
+3  class = 8726
+
+
+row =
+
+        8925
+
+Row: 8925, pDepth = 4, loss = 0.098551
+
+Decision tree for classification
+1  if silence_rate_30dB_mean<0.990566 then node 2 elseif silence_rate_30dB_mean>=0.990566 then node 3 else 8900
+2  class = 8900
+3  class = 8884
+
+
+row =
+
+        8906
+
+Row: 8906, pDepth = 6, loss = 0.194595
+
+Decision tree for classification
+1  if pitch_mean<0.118812 then node 2 elseif pitch_mean>=0.118812 then node 3 else 8856
+2  class = 8828
+3  class = 8856
+
+
+row =
+
+        8911
+
+Row: 8911, pDepth = 2, loss = 0.075472
+
+Decision tree for classification
+1  if mfcc_dvar_5<0.228067 then node 2 elseif mfcc_dvar_5>=0.228067 then node 3 else 8829
+2  class = 8829
+3  class = 8821
+
+
+row =
+
+        8171
+
+Row: 8171, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_dvar_5<0.228067 then node 2 elseif mfcc_dvar_5>=0.228067 then node 3 else 8829
+2  class = 8829
+3  class = 8821
+
+
+row =
+
+        8380
+
+Row: 8380, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_dvar_5<0.228067 then node 2 elseif mfcc_dvar_5>=0.228067 then node 3 else 8829
+2  class = 8829
+3  class = 8821
+
+
+row =
+
+        8494
+
+Row: 8494, pDepth = 2, loss = 0.157895
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_3<0.0010675 then node 2 elseif beats_loudness_band_ratio_mean_3>=0.0010675 then node 3 else 7417
+2  class = 7417
+3  class = 7893
+
+
+row =
+
+        8759
+
+Row: 8759, pDepth = 2, loss = 0.136986
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_5<0.566381 then node 2 elseif beats_loudness_band_ratio_min_5>=0.566381 then node 3 else 8537
+2  class = 8537
+3  class = 8497
+
+
+row =
+
+        8302
+
+Row: 8302, pDepth = 2, loss = 0.114286
+
+Decision tree for classification
+1  if max_to_total<0.565705 then node 2 elseif max_to_total>=0.565705 then node 3 else 8014
+2  class = 8014
+3  class = 7541
+
+
+row =
+
+        8697
+
+Row: 8697, pDepth = 1, loss = 0.048193
+
+Decision tree for classification
+1  if spectral_energyband_middle_high_mean<7.8e-05 then node 2 elseif spectral_energyband_middle_high_mean>=7.8e-05 then node 3 else 8583
+2  class = 7797
+3  class = 8583
+
+
+row =
+
+        8734
+
+Row: 8734, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_energyband_middle_high_mean<7.8e-05 then node 2 elseif spectral_energyband_middle_high_mean>=7.8e-05 then node 3 else 8583
+2  class = 7797
+3  class = 8583
+
+
+row =
+
+        8765
+
+Row: 8765, pDepth = 2, loss = 0.171875
+
+Decision tree for classification
+1  if hfc_mean<0.000376 then node 2 elseif hfc_mean>=0.000376 then node 3 else 8675
+2  class = 8488
+3  class = 8675
+
+
+row =
+
+        8362
+
+Row: 8362, pDepth = 1, loss = 0.064516
+
+Decision tree for classification
+1  if mfcc_median_0<0.194248 then node 2 elseif mfcc_median_0>=0.194248 then node 3 else 8114
+2  class = 8114
+3  class = 7889
+
+
+row =
+
+        8886
+
+Row: 8886, pDepth = 6, loss = 0.171171
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.147405 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.147405 then node 3 else 8848
+2  class = 8744
+3  if scvalleys_var_5<0.206259 then node 4 elseif scvalleys_var_5>=0.206259 then node 5 else 8848
+4  class = 8744
+5  class = 8848
+
+
+row =
+
+        8831
+
+Row: 8831, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.147405 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.147405 then node 3 else 8848
+2  class = 8744
+3  if scvalleys_var_5<0.206259 then node 4 elseif scvalleys_var_5>=0.206259 then node 5 else 8848
+4  class = 8744
+5  class = 8848
+
+
+row =
+
+        8860
+
+Row: 8860, pDepth = 6, loss = 0.181347
+
+Decision tree for classification
+1  if gfcc_max_0<0.790436 then node 2 elseif gfcc_max_0>=0.790436 then node 3 else 8807
+2  class = 8807
+3  class = 8768
+
+
+row =
+
+        8741
+
+Row: 8741, pDepth = 2, loss = 0.144444
+
+Decision tree for classification
+1  if spectral_flatness_db_dmean2<0.12055 then node 2 elseif spectral_flatness_db_dmean2>=0.12055 then node 3 else 8682
+2  class = 8682
+3  class = 8460
+
+
+row =
+
+        8783
+
+Row: 8783, pDepth = 2, loss = 0.057377
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.717311 then node 2 elseif spectral_entropy_mean>=0.717311 then node 3 else 8698
+2  class = 8075
+3  class = 8698
+
+
+row =
+
+        8858
+
+Row: 8858, pDepth = 3, loss = 0.099379
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_0<0.0454905 then node 2 elseif beats_loudness_band_ratio_median_0>=0.0454905 then node 3 else 8755
+2  class = 8755
+3  class = 8711
+
+
+row =
+
+        8880
+
+Row: 8880, pDepth = 4, loss = 0.116883
+
+Decision tree for classification
+1  if spectral_entropy_dmean<0.103471 then node 2 elseif spectral_entropy_dmean>=0.103471 then node 3 else 8833
+2  class = 8341
+3  class = 8833
+
+
+row =
+
+        8881
+
+Row: 8881, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_dmean<0.103471 then node 2 elseif spectral_entropy_dmean>=0.103471 then node 3 else 8833
+2  class = 8341
+3  class = 8833
+
+
+row =
+
+        8897
+
+Row: 8897, pDepth = 2, loss = 0.135294
+
+Decision tree for classification
+ 1  if frequency_bands_median_16<8.35e-05 then node 2 elseif frequency_bands_median_16>=8.35e-05 then node 3 else 8846
+ 2  if spectral_energy_var<6.65e-05 then node 4 elseif spectral_energy_var>=6.65e-05 then node 5 else 8846
+ 3  class = 8784
+ 4  if frequency_bands_median_16<5e-07 then node 6 elseif frequency_bands_median_16>=5e-07 then node 7 else 8846
+ 5  if frequency_bands_median_16<5e-07 then node 8 elseif frequency_bands_median_16>=5e-07 then node 9 else 8846
+ 6  class = 8846
+ 7  if gfcc_mean_1<0.44926 then node 10 elseif gfcc_mean_1>=0.44926 then node 11 else 8846
+ 8  if gfcc_mean_1<0.614542 then node 12 elseif gfcc_mean_1>=0.614542 then node 13 else 8846
+ 9  if frequency_bands_median_16<5.9e-05 then node 14 elseif frequency_bands_median_16>=5.9e-05 then node 15 else 8784
+10  class = 8846
+11  class = 8784
+12  class = 8846
+13  if gfcc_mean_1<0.671312 then node 16 elseif gfcc_mean_1>=0.671312 then node 17 else 8784
+14  if gfcc_mean_1<0.576564 then node 18 elseif gfcc_mean_1>=0.576564 then node 19 else 8784
+15  class = 8846
+16  class = 8784
+17  class = 8846
+18  if gfcc_mean_1<0.361218 then node 20 elseif gfcc_mean_1>=0.361218 then node 21 else 8784
+19  class = 8784
+20  class = 8784
+21  if spectral_energy_var<0.000243 then node 22 elseif spectral_energy_var>=0.000243 then node 23 else 8846
+22  class = 8846
+23  if spectral_energy_var<0.000607 then node 24 elseif spectral_energy_var>=0.000607 then node 25 else 8784
+24  class = 8784
+25  class = 8846
+
+
+row =
+
+        8895
+
+Row: 8895, pDepth = 4, loss = 0.108225
+
+Decision tree for classification
+1  if scvalleys_mean_1<0.706145 then node 2 elseif scvalleys_mean_1>=0.706145 then node 3 else 8840
+2  class = 8864
+3  class = 8840
+
+
+row =
+
+        8933
+
+Row: 8933, pDepth = 3, loss = 0.051873
+
+Decision tree for classification
+1  if silence_rate_60dB_dmean2<0.001268 then node 2 elseif silence_rate_60dB_dmean2>=0.001268 then node 3 else 8872
+2  class = 8838
+3  class = 8872
+
+
+row =
+
+        8888
+
+Row: 8888, pDepth = 4, loss = 0.144860
+
+Decision tree for classification
+1  if spectral_centroid_median<0.248646 then node 2 elseif spectral_centroid_median>=0.248646 then node 3 else 8816
+2  class = 8816
+3  class = 8764
+
+
+row =
+
+        8905
+
+Row: 8905, pDepth = 5, loss = 0.124031
+
+Decision tree for classification
+1  if spectral_flatness_db_mean<0.320336 then node 2 elseif spectral_flatness_db_mean>=0.320336 then node 3 else 8868
+2  class = 8868
+3  class = 8738
+
+
+row =
+
+        8893
+
+Row: 8893, pDepth = 3, loss = 0.096939
+
+Decision tree for classification
+1  if frequency_bands_median_21<0.0001485 then node 2 elseif frequency_bands_median_21>=0.0001485 then node 3 else 8785
+2  class = 8785
+3  class = 8678
+
+
+row =
+
+        8940
+
+Row: 8940, pDepth = 9, loss = 0.172619
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.0182555 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.0182555 then node 3 else 8912
+2  class = 8912
+3  class = 8876
+
+
+row =
+
+        8750
+
+Row: 8750, pDepth = 3, loss = 0.172727
+
+Decision tree for classification
+1  if first_peak_weight_mean<0.763889 then node 2 elseif first_peak_weight_mean>=0.763889 then node 3 else 8464
+2  class = 8720
+3  class = 8464
+
+
+row =
+
+        8902
+
+Row: 8902, pDepth = 2, loss = 0.107914
+
+Decision tree for classification
+1  if scvalleys_max_2<0.700581 then node 2 elseif scvalleys_max_2>=0.700581 then node 3 else 8824
+2  class = 8790
+3  class = 8824
+
+
+row =
+
+        8935
+
+Row: 8935, pDepth = 1, loss = 0.042781
+
+Decision tree for classification
+1  if spectral_entropy_max<0.91212 then node 2 elseif spectral_entropy_max>=0.91212 then node 3 else 8871
+2  class = 8835
+3  class = 8871
+
+
+row =
+
+        8955
+
+Row: 8955, pDepth = 7, loss = 0.140684
+
+Decision tree for classification
+1  if second_peak_weight_median<0.17782 then node 2 elseif second_peak_weight_median>=0.17782 then node 3 else 8910
+2  class = 8910
+3  class = 8946
+
+
+row =
+
+        8915
+
+Row: 8915, pDepth = 6, loss = 0.083056
+
+Decision tree for classification
+1  if max_der_before_max_mean<0.549144 then node 2 elseif max_der_before_max_mean>=0.549144 then node 3 else 8837
+2  class = 8819
+3  class = 8837
+
+
+row =
+
+        8920
+
+Row: 8920, pDepth = 4, loss = 0.133588
+
+Decision tree for classification
+1  if barkbands_max_18<0.0004445 then node 2 elseif barkbands_max_18>=0.0004445 then node 3 else 8891
+2  class = 8843
+3  class = 8891
+
+
+row =
+
+        8919
+
+Row: 8919, pDepth = 1, loss = 0.072131
+
+Decision tree for classification
+1  if first_peak_weight_mean<0.763889 then node 2 elseif first_peak_weight_mean>=0.763889 then node 3 else 8873
+2  class = 8852
+3  class = 8873
+
+
+row =
+
+        8936
+
+Row: 8936, pDepth = 6, loss = 0.074786
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_0<0.714803 then node 2 elseif beats_loudness_band_ratio_max_0>=0.714803 then node 3 else 8921
+2  class = 8921
+3  class = 8857
+
+
+row =
+
+        8707
+
+Row: 8707, pDepth = 1, loss = 0.022222
+
+Decision tree for classification
+1  if second_peak_spread_max<0.050472 then node 2 elseif second_peak_spread_max>=0.050472 then node 3 else 8301
+2  class = 8156
+3  class = 8301
+
+
+row =
+
+        8760
+
+Row: 8760, pDepth = 2, loss = 0.109756
+
+Decision tree for classification
+1  if barkbands_dmean2_11<7.5e-06 then node 2 elseif barkbands_dmean2_11>=7.5e-06 then node 3 else 8063
+2  class = 8327
+3  class = 8063
+
+
+row =
+
+        8918
+
+Row: 8918, pDepth = 7, loss = 0.181818
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_5<0.0010565 then node 2 elseif beats_loudness_band_ratio_max_5>=0.0010565 then node 3 else 8869
+2  class = 8883
+3  class = 8869
+
+
+row =
+
+        8932
+
+Row: 8932, pDepth = 3, loss = 0.052885
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8540
+
+Row: 8540, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8677
+
+Row: 8677, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8474
+
+Row: 8474, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8890
+
+Row: 8890, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8424
+
+Row: 8424, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8127
+
+Row: 8127, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_0<0.837236 then node 2 elseif gfcc_mean_0>=0.837236 then node 3 else 8894
+2  class = 8894
+3  class = 8908
+
+
+row =
+
+        8938
+
+Row: 8938, pDepth = 3, loss = 0.105000
+
+Decision tree for classification
+1  if inharmonicity_median<0.00494 then node 2 elseif inharmonicity_median>=0.00494 then node 3 else 8896
+2  class = 8927
+3  class = 8896
+
+
+row =
+
+        8941
+
+Row: 8941, pDepth = 1, loss = 0.038610
+
+Decision tree for classification
+1  if gfcc_mean_1<0.300223 then node 2 elseif gfcc_mean_1>=0.300223 then node 3 else 8882
+2  class = 8767
+3  class = 8882
+
+
+row =
+
+        8924
+
+Row: 8924, pDepth = 1, loss = 0.066845
+
+Decision tree for classification
+1  if first_peak_spread_median<0.215852 then node 2 elseif first_peak_spread_median>=0.215852 then node 3 else 8914
+2  class = 8914
+3  class = 8781
+
+
+row =
+
+        8929
+
+Row: 8929, pDepth = 7, loss = 0.187013
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        7850
+
+Row: 7850, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        7940
+
+Row: 7940, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        8371
+
+Row: 8371, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        8530
+
+Row: 8530, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        6907
+
+Row: 6907, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        7646
+
+Row: 7646, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_var_1<0.081249 then node 2 elseif scvalleys_var_1>=0.081249 then node 3 else 8916
+2  class = 8916
+3  class = 8823
+
+
+row =
+
+        8606
+
+Row: 8606, pDepth = 1, loss = 0.066667
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        8650
+
+Row: 8650, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        7144
+
+Row: 7144, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        8230
+
+Row: 8230, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        8471
+
+Row: 8471, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        8430
+
+Row: 8430, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_min_6<1.5e-06 then node 2 elseif frequency_bands_min_6>=1.5e-06 then node 3 else 8276
+2  class = 8492
+3  class = 8276
+
+
+row =
+
+        8633
+
+Row: 8633, pDepth = 1, loss = 0.127660
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        8217
+
+Row: 8217, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        8534
+
+Row: 8534, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+   712
+
+Row: 712, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        2269
+
+Row: 2269, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        4426
+
+Row: 4426, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        5110
+
+Row: 5110, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        8312
+
+Row: 8312, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        8621
+
+Row: 8621, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_max<0.151868 then node 2 elseif spectral_flatness_db_max>=0.151868 then node 3 else 8387
+2  class = 8387
+3  class = 8563
+
+
+row =
+
+        8799
+
+Row: 8799, pDepth = 1, loss = 0.145455
+
+Decision tree for classification
+1  if mfcc_var_0<0.25508 then node 2 elseif mfcc_var_0>=0.25508 then node 3 else 8719
+2  class = 8719
+3  class = 8645
+
+
+row =
+
+        8870
+
+Row: 8870, pDepth = 2, loss = 0.128571
+
+Decision tree for classification
+1  if spectral_flatness_db_dmean2<0.165319 then node 2 elseif spectral_flatness_db_dmean2>=0.165319 then node 3 else 8811
+2  class = 8811
+3  class = 8791
+
+
+row =
+
+        8726
+
+Row: 8726, pDepth = 1, loss = 0.132075
+
+Decision tree for classification
+1  if spectral_spread_var<0.107504 then node 2 elseif spectral_spread_var>=0.107504 then node 3 else 8431
+2  class = 8515
+3  class = 8431
+
+
+row =
+
+        8743
+
+Row: 8743, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_spread_var<0.107504 then node 2 elseif spectral_spread_var>=0.107504 then node 3 else 8431
+2  class = 8515
+3  class = 8431
+
+
+row =
+
+        8884
+
+Row: 8884, pDepth = 5, loss = 0.149351
+
+Decision tree for classification
+1  if gfcc_mean_0<0.755376 then node 2 elseif gfcc_mean_0>=0.755376 then node 3 else 8788
+2  class = 8788
+3  class = 8826
+
+
+row =
+
+        8900
+
+Row: 8900, pDepth = 6, loss = 0.125654
+
+Decision tree for classification
+1  if barkbands_median_20<0.0007535 then node 2 elseif barkbands_median_20>=0.0007535 then node 3 else 8861
+2  class = 8861
+3  class = 8721
+
+
+row =
+
+        8828
+
+Row: 8828, pDepth = 1, loss = 0.065934
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_0<0.40722 then node 2 elseif beats_loudness_band_ratio_max_0>=0.40722 then node 3 else 8786
+2  class = 8786
+3  class = 8761
+
+
+row =
+
+        8856
+
+Row: 8856, pDepth = 3, loss = 0.095745
+
+Decision tree for classification
+1  if inharmonicity_mean<0.157454 then node 2 elseif inharmonicity_mean>=0.157454 then node 3 else 8731
+2  class = 8690
+3  class = 8731
+
+
+row =
+
+        8821
+
+Row: 8821, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if inharmonicity_mean<0.157454 then node 2 elseif inharmonicity_mean>=0.157454 then node 3 else 8731
+2  class = 8690
+3  class = 8731
+
+
+row =
+
+        8829
+
+Row: 8829, pDepth = 1, loss = 0.031250
+
+Decision tree for classification
+1  if tristimulus_mean_1<0.160731 then node 2 elseif tristimulus_mean_1>=0.160731 then node 3 else 8725
+2  class = 8725
+3  class = 8619
+
+
+row =
+
+        6751
+
+Row: 6751, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_mean_1<0.160731 then node 2 elseif tristimulus_mean_1>=0.160731 then node 3 else 8725
+2  class = 8725
+3  class = 8619
+
+
+row =
+
+        8021
+
+Row: 8021, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_mean_1<0.160731 then node 2 elseif tristimulus_mean_1>=0.160731 then node 3 else 8725
+2  class = 8725
+3  class = 8619
+
+
+row =
+
+        7998
+
+Row: 7998, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_mean_1<0.160731 then node 2 elseif tristimulus_mean_1>=0.160731 then node 3 else 8725
+2  class = 8725
+3  class = 8619
+
+
+row =
+
+        8275
+
+Row: 8275, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_mean_1<0.160731 then node 2 elseif tristimulus_mean_1>=0.160731 then node 3 else 8725
+2  class = 8725
+3  class = 8619
+
+
+row =
+
+        7417
+
+Row: 7417, pDepth = 1, loss = 0.060606
+
+Decision tree for classification
+1  if spectral_entropy_dmean2<0.119373 then node 2 elseif spectral_entropy_dmean2>=0.119373 then node 3 else 6660
+2  class = 6662
+3  class = 6660
+
+
+row =
+
+        7893
+
+Row: 7893, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_dmean2<0.119373 then node 2 elseif spectral_entropy_dmean2>=0.119373 then node 3 else 6660
+2  class = 6662
+3  class = 6660
+
+
+row =
+
+        8497
+
+Row: 8497, pDepth = 1, loss = 0.074074
+
+Decision tree for classification
+1  if spectral_rms_mean<0.026824 then node 2 elseif spectral_rms_mean>=0.026824 then node 3 else 7955
+2  class = 7702
+3  class = 7955
+
+
+row =
+
+        8537
+
+Row: 8537, pDepth = 2, loss = 0.108696
+
+Decision tree for classification
+1  if spectral_entropy_min<0.583247 then node 2 elseif spectral_entropy_min>=0.583247 then node 3 else 8179
+2  class = 8069
+3  class = 8179
+
+
+row =
+
+        7541
+
+Row: 7541, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_min<0.583247 then node 2 elseif spectral_entropy_min>=0.583247 then node 3 else 8179
+2  class = 8069
+3  class = 8179
+
+
+row =
+
+        8014
+
+Row: 8014, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_min<0.583247 then node 2 elseif spectral_entropy_min>=0.583247 then node 3 else 8179
+2  class = 8069
+3  class = 8179
+
+
+row =
+
+        7797
+
+Row: 7797, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_entropy_min<0.583247 then node 2 elseif spectral_entropy_min>=0.583247 then node 3 else 8179
+2  class = 8069
+3  class = 8179
+
+
+row =
+
+        8583
+
+Row: 8583, pDepth = 1, loss = 0.098592
+
+Decision tree for classification
+1  if zerocrossingrate_min<0.0510405 then node 2 elseif zerocrossingrate_min>=0.0510405 then node 3 else 8289
+2  class = 8245
+3  class = 8289
+
+
+row =
+
+        7922
+
+Row: 7922, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if zerocrossingrate_min<0.0510405 then node 2 elseif zerocrossingrate_min>=0.0510405 then node 3 else 8289
+2  class = 8245
+3  class = 8289
+
+
+row =
+
+        8708
+
+Row: 8708, pDepth = 2, loss = 0.053571
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_0<0.012433 then node 2 elseif beats_loudness_band_ratio_max_0>=0.012433 then node 3 else 8370
+2  class = 8469
+3  class = 8370
+
+
+row =
+
+        8488
+
+Row: 8488, pDepth = 1, loss = 0.132075
+
+Decision tree for classification
+1  if scvalleys_dvar_1<0.0257925 then node 2 elseif scvalleys_dvar_1>=0.0257925 then node 3 else 8201
+2  class = 8201
+3  class = 8393
+
+
+row =
+
+        8675
+
+Row: 8675, pDepth = 1, loss = 0.133333
+
+Decision tree for classification
+1  if mfcc_dvar_0<0.103958 then node 2 elseif mfcc_dvar_0>=0.103958 then node 3 else 8592
+2  class = 7871
+3  class = 8592
+
+
+row =
+
+        7889
+
+Row: 7889, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_dvar_0<0.103958 then node 2 elseif mfcc_dvar_0>=0.103958 then node 3 else 8592
+2  class = 7871
+3  class = 8592
+
+
+row =
+
+        8114
+
+Row: 8114, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_dvar_0<0.103958 then node 2 elseif mfcc_dvar_0>=0.103958 then node 3 else 8592
+2  class = 7871
+3  class = 8592
+
+
+row =
+
+        8744
+
+Row: 8744, pDepth = 2, loss = 0.095238
+
+Decision tree for classification
+1  if scvalleys_var_2<0.120504 then node 2 elseif scvalleys_var_2>=0.120504 then node 3 else 8508
+2  class = 8508
+3  class = 8569
+
+
+row =
+
+        8848
+
+Row: 8848, pDepth = 5, loss = 0.179487
+
+Decision tree for classification
+1  if spectral_flatness_db_dmean<0.184358 then node 2 elseif spectral_flatness_db_dmean>=0.184358 then node 3 else 8777
+2  class = 8777
+3  class = 8801
+
+
+row =
+
+        7522
+
+Row: 7522, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_dmean<0.184358 then node 2 elseif spectral_flatness_db_dmean>=0.184358 then node 3 else 8777
+2  class = 8777
+3  class = 8801
+
+
+row =
+
+        8510
+
+Row: 8510, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flatness_db_dmean<0.184358 then node 2 elseif spectral_flatness_db_dmean>=0.184358 then node 3 else 8777
+2  class = 8777
+3  class = 8801
+
+
+row =
+
+        8768
+
+Row: 8768, pDepth = 2, loss = 0.098901
+
+Decision tree for classification
+1  if silence_rate_30dB_dmean2<0.0486295 then node 2 elseif silence_rate_30dB_dmean2>=0.0486295 then node 3 else 8425
+2  class = 8425
+3  class = 8612
+
+
+row =
+
+        8807
+
+Row: 8807, pDepth = 2, loss = 0.078431
+
+Decision tree for classification
+1  if inharmonicity_mean<0.046759 then node 2 elseif inharmonicity_mean>=0.046759 then node 3 else 8724
+2  class = 8299
+3  class = 8724
+
+
+row =
+
+        8460
+
+Row: 8460, pDepth = 1, loss = 0.085714
+
+Decision tree for classification
+1  if spectral_contrast_mean_5<0.195317 then node 2 elseif spectral_contrast_mean_5>=0.195317 then node 3 else 8377
+2  class = 8205
+3  class = 8377
+
+
+row =
+
+        8682
+
+Row: 8682, pDepth = 1, loss = 0.018182
+
+Decision tree for classification
+1  if barkbands_spread_dvar<0.0142395 then node 2 elseif barkbands_spread_dvar>=0.0142395 then node 3 else 8588
+2  class = 6448
+3  class = 8588
+
+
+row =
+
+        8075
+
+Row: 8075, pDepth = 1, loss = 0.033333
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_5<0.298373 then node 2 elseif beats_loudness_band_ratio_min_5>=0.298373 then node 3 else 7015
+2  class = 7659
+3  class = 7015
+
+
+row =
+
+        8698
+
+Row: 8698, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_5<0.298373 then node 2 elseif beats_loudness_band_ratio_min_5>=0.298373 then node 3 else 7015
+2  class = 7659
+3  class = 7015
+
+
+row =
+
+        8711
+
+Row: 8711, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_5<0.298373 then node 2 elseif beats_loudness_band_ratio_min_5>=0.298373 then node 3 else 7015
+2  class = 7659
+3  class = 7015
+
+
+row =
+
+        8755
+
+Row: 8755, pDepth = 2, loss = 0.197531
+
+Decision tree for classification
+1  if tristimulus_max_2<0.752637 then node 2 elseif tristimulus_max_2>=0.752637 then node 3 else 8658
+2  class = 8658
+3  if tristimulus_max_2<0.80408 then node 4 elseif tristimulus_max_2>=0.80408 then node 5 else 8658
+4  if barkbands_dmean2_22<0.0004235 then node 6 elseif barkbands_dmean2_22>=0.0004235 then node 7 else 8382
+5  if erb_bands_dvar2_8<0.0050135 then node 8 elseif erb_bands_dvar2_8>=0.0050135 then node 9 else 8658
+6  class = 8382
+7  class = 8658
+8  class = 8658
+9  class = 8382
+
+
+row =
+
+        8341
+
+Row: 8341, pDepth = 1, loss = 0.079365
+
+Decision tree for classification
+1  if scvalleys_var_1<0.38783 then node 2 elseif scvalleys_var_1>=0.38783 then node 3 else 8038
+2  class = 5730
+3  class = 8038
+
+
+row =
+
+        8833
+
+Row: 8833, pDepth = 5, loss = 0.142857
+
+Decision tree for classification
+1  if scvalleys_dmean_1<0.446352 then node 2 elseif scvalleys_dmean_1>=0.446352 then node 3 else 8758
+2  class = 8758
+3  class = 8740
+
+
+row =
+
+        8632
+
+Row: 8632, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_dmean_1<0.446352 then node 2 elseif scvalleys_dmean_1>=0.446352 then node 3 else 8758
+2  class = 8758
+3  class = 8740
+
+
+row =
+
+        8769
+
+Row: 8769, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_dmean_1<0.446352 then node 2 elseif scvalleys_dmean_1>=0.446352 then node 3 else 8758
+2  class = 8758
+3  class = 8740
+
+
+row =
+
+        8784
+
+Row: 8784, pDepth = 2, loss = 0.166667
+
+Decision tree for classification
+1  if pitch_instantaneous_confidence_median<0.454039 then node 2 elseif pitch_instantaneous_confidence_median>=0.454039 then node 3 else 8396
+2  class = 8396
+3  class = 8689
+
+
+row =
+
+        8846
+
+Row: 8846, pDepth = 2, loss = 0.048077
+
+Decision tree for classification
+1  if mfcc_dvar_7<0.041849 then node 2 elseif mfcc_dvar_7>=0.041849 then node 3 else 8694
+2  class = 8694
+3  class = 8671
+
+
+row =
+
+        8840
+
+Row: 8840, pDepth = 4, loss = 0.160000
+
+Decision tree for classification
+1  if scvalleys_min_5<0.30358 then node 2 elseif scvalleys_min_5>=0.30358 then node 3 else 8557
+2  class = 8557
+3  class = 8626
+
+
+row =
+
+        8864
+
+Row: 8864, pDepth = 2, loss = 0.132075
+
+Decision tree for classification
+1  if barkbands_spread_dmean<0.233654 then node 2 elseif barkbands_spread_dmean>=0.233654 then node 3 else 8813
+2  class = 8813
+3  class = 8566
+
+
+row =
+
+        8838
+
+Row: 8838, pDepth = 4, loss = 0.113636
+
+Decision tree for classification
+1  if second_peak_weight_min<0.310345 then node 2 elseif second_peak_weight_min>=0.310345 then node 3 else 8780
+2  class = 8780
+3  class = 8603
+
+
+row =
+
+        8872
+
+Row: 8872, pDepth = 6, loss = 0.146718
+
+Decision tree for classification
+1  if second_peak_spread_median<0.188947 then node 2 elseif second_peak_spread_median>=0.188947 then node 3 else 8842
+2  if scvalleys_min_4<0.380769 then node 4 elseif scvalleys_min_4>=0.380769 then node 5 else 8789
+3  class = 8842
+4  class = 8789
+5  class = 8842
+
+
+row =
+
+        8764
+
+Row: 8764, pDepth = 1, loss = 0.162162
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_dmean2_4<9e-06 then node 2 elseif beats_loudness_band_ratio_dmean2_4>=9e-06 then node 3 else 8656
+2  class = 8656
+3  class = 8667
+
+
+row =
+
+        8816
+
+Row: 8816, pDepth = 2, loss = 0.092857
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.154344 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.154344 then node 3 else 8746
+2  class = 8746
+3  class = 8699
+
+
+row =
+
+        8738
+
+Row: 8738, pDepth = 1, loss = 0.156863
+
+Decision tree for classification
+1  if mfcc_var_10<0.087524 then node 2 elseif mfcc_var_10>=0.087524 then node 3 else 8640
+2  class = 8692
+3  class = 8640
+
+
+row =
+
+        8868
+
+Row: 8868, pDepth = 4, loss = 0.130435
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_0<0.00142 then node 2 elseif beats_loudness_band_ratio_median_0>=0.00142 then node 3 else 8792
+2  class = 8792
+3  class = 8714
+
+
+row =
+
+        8678
+
+Row: 8678, pDepth = 2, loss = 0.162500
+
+Decision tree for classification
+1  if spectral_entropy_max<0.930671 then node 2 elseif spectral_entropy_max>=0.930671 then node 3 else 8531
+2  class = 8378
+3  class = 8531
+
+
+row =
+
+        8785
+
+Row: 8785, pDepth = 2, loss = 0.077586
+
+Decision tree for classification
+1  if silence_rate_30dB_mean<0.974679 then node 2 elseif silence_rate_30dB_mean>=0.974679 then node 3 else 8702
+2  class = 8604
+3  class = 8702
+
+
+row =
+
+        8876
+
+Row: 8876, pDepth = 3, loss = 0.094527
+
+Decision tree for classification
+1  if spectral_centroid_mean<0.224613 then node 2 elseif spectral_centroid_mean>=0.224613 then node 3 else 8862
+2  class = 8862
+3  class = 8386
+
+
+row =
+
+        8912
+
+Row: 8912, pDepth = 5, loss = 0.184818
+
+Decision tree for classification
+1  if stopFrame<0.011142 then node 2 elseif stopFrame>=0.011142 then node 3 else 8899
+2  class = 8737
+3  class = 8899
+
+
+row =
+
+        8464
+
+Row: 8464, pDepth = 1, loss = 0.081967
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_4<0.000218 then node 2 elseif beats_loudness_band_ratio_var_4>=0.000218 then node 3 else 8361
+2  class = 8361
+3  class = 7673
+
+
+row =
+
+        8720
+
+Row: 8720, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_4<0.000218 then node 2 elseif beats_loudness_band_ratio_var_4>=0.000218 then node 3 else 8361
+2  class = 8361
+3  class = 7673
+
+
+row =
+
+        8790
+
+Row: 8790, pDepth = 1, loss = 0.196970
+
+Decision tree for classification
+1  if barkbands_median_16<5.5e-06 then node 2 elseif barkbands_median_16>=5.5e-06 then node 3 else 8700
+2  class = 8700
+3  class = 8433
+
+
+row =
+
+        8824
+
+Row: 8824, pDepth = 1, loss = 0.054795
+
+Decision tree for classification
+1  if mfcc_median_9<0.605751 then node 2 elseif mfcc_median_9>=0.605751 then node 3 else 8666
+2  class = 8666
+3  class = 8610
+
+
+row =
+
+        8835
+
+Row: 8835, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_median_9<0.605751 then node 2 elseif mfcc_median_9>=0.605751 then node 3 else 8666
+2  class = 8666
+3  class = 8610
+
+
+row =
+
+        8871
+
+Row: 8871, pDepth = 2, loss = 0.065789
+
+Decision tree for classification
+1  if inharmonicity_mean<0.193569 then node 2 elseif inharmonicity_mean>=0.193569 then node 3 else 8796
+2  class = 8796
+3  class = 8709
+
+
+row =
+
+        8910
+
+Row: 8910, pDepth = 3, loss = 0.059896
+
+Decision tree for classification
+1  if spectral_decrease_median<0.899888 then node 2 elseif spectral_decrease_median>=0.899888 then node 3 else 8878
+2  class = 8810
+3  class = 8878
+
+
+row =
+
+        8946
+
+Row: 8946, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_decrease_median<0.899888 then node 2 elseif spectral_decrease_median>=0.899888 then node 3 else 8878
+2  class = 8810
+3  class = 8878
+
+
+row =
+
+        8819
+
+Row: 8819, pDepth = 3, loss = 0.118110
+
+Decision tree for classification
+1  if spectral_centroid_median<0.16468 then node 2 elseif spectral_centroid_median>=0.16468 then node 3 else 8648
+2  class = 8590
+3  class = 8648
+
+
+row =
+
+        8837
+
+Row: 8837, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_centroid_median<0.16468 then node 2 elseif spectral_centroid_median>=0.16468 then node 3 else 8648
+2  class = 8590
+3  class = 8648
+
+
+row =
+
+        8843
+
+Row: 8843, pDepth = 1, loss = 0.065217
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_5<0.332682 then node 2 elseif beats_loudness_band_ratio_max_5>=0.332682 then node 3 else 8673
+2  class = 8713
+3  class = 8673
+
+
+row =
+
+        8891
+
+Row: 8891, pDepth = 2, loss = 0.076471
+
+Decision tree for classification
+1  if spectral_entropy_mean<0.712979 then node 2 elseif spectral_entropy_mean>=0.712979 then node 3 else 8851
+2  class = 8742
+3  class = 8851
+
+
+row =
+
+        8852
+
+Row: 8852, pDepth = 1, loss = 0.053763
+
+Decision tree for classification
+1  if scvalleys_mean_2<0.799317 then node 2 elseif scvalleys_mean_2>=0.799317 then node 3 else 8618
+2  class = 8458
+3  class = 8618
+
+
+row =
+
+        8873
+
+Row: 8873, pDepth = 5, loss = 0.188679
+
+Decision tree for classification
+1  if gfcc_max_0<0.8201 then node 2 elseif gfcc_max_0>=0.8201 then node 3 else 8830
+2  class = 8817
+3  class = 8830
+
+
+row =
+
+        8857
+
+Row: 8857, pDepth = 3, loss = 0.078740
+
+Decision tree for classification
+1  if silence_rate_30dB_dvar<0.0081965 then node 2 elseif silence_rate_30dB_dvar>=0.0081965 then node 3 else 8800
+2  class = 8521
+3  class = 8800
+
+
+row =
+
+        8921
+
+Row: 8921, pDepth = 9, loss = 0.196481
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_4<1.5e-06 then node 2 elseif beats_loudness_band_ratio_min_4>=1.5e-06 then node 3 else 8889
+2  class = 8889
+3  class = 8845
+
+
+row =
+
+        8156
+
+Row: 8156, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_4<1.5e-06 then node 2 elseif beats_loudness_band_ratio_min_4>=1.5e-06 then node 3 else 8889
+2  class = 8889
+3  class = 8845
+
+
+row =
+
+        8301
+
+Row: 8301, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_4<1.5e-06 then node 2 elseif beats_loudness_band_ratio_min_4>=1.5e-06 then node 3 else 8889
+2  class = 8889
+3  class = 8845
+
+
+row =
+
+        8063
+
+Row: 8063, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_4<1.5e-06 then node 2 elseif beats_loudness_band_ratio_min_4>=1.5e-06 then node 3 else 8889
+2  class = 8889
+3  class = 8845
+
+
+row =
+
+        8327
+
+Row: 8327, pDepth = 1, loss = 0.055556
+
+Decision tree for classification
+1  if scvalleys_min_3<0.3427 then node 2 elseif scvalleys_min_3>=0.3427 then node 3 else 7995
+2  class = 7995
+3  class = 6675
+
+
+row =
+
+        8869
+
+Row: 8869, pDepth = 4, loss = 0.113990
+
+Decision tree for classification
+1  if spectral_entropy_min<0.606841 then node 2 elseif spectral_entropy_min>=0.606841 then node 3 else 8820
+2  class = 8820
+3  class = 8669
+
+
+row =
+
+        8883
+
+Row: 8883, pDepth = 5, loss = 0.197917
+
+Decision tree for classification
+1  if scvalleys_min_2<0.498872 then node 2 elseif scvalleys_min_2>=0.498872 then node 3 else 8795
+2  class = 8795
+3  class = 8859
+
+
+row =
+
+        8894
+
+Row: 8894, pDepth = 2, loss = 0.064286
+
+Decision tree for classification
+1  if inharmonicity_var<0.003146 then node 2 elseif inharmonicity_var>=0.003146 then node 3 else 8844
+2  class = 8834
+3  class = 8844
+
+
+row =
+
+        8908
+
+Row: 8908, pDepth = 3, loss = 0.161765
+
+Decision tree for classification
+1  if gfcc_dmean_0<0.024685 then node 2 elseif gfcc_dmean_0>=0.024685 then node 3 else 8853
+2  class = 8849
+3  class = 8853
+
+
+row =
+
+        7240
+
+Row: 7240, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_0<0.024685 then node 2 elseif gfcc_dmean_0>=0.024685 then node 3 else 8853
+2  class = 8849
+3  class = 8853
+
+
+row =
+
+        8053
+
+Row: 8053, pDepth = 1, loss = 0.045455
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_dmean2_5<0.353328 then node 2 elseif beats_loudness_band_ratio_dmean2_5>=0.353328 then node 3 else 7824
+2  class = 7824
+3  class = 6868
+
+
+row =
+
+        7891
+
+Row: 7891, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_dmean2_5<0.353328 then node 2 elseif beats_loudness_band_ratio_dmean2_5>=0.353328 then node 3 else 7824
+2  class = 7824
+3  class = 6868
+
+
+row =
+
+        8602
+
+Row: 8602, pDepth = 1, loss = 0.081633
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        1755
+
+Row: 1755, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        7828
+
+Row: 7828, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        8688
+
+Row: 8688, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        8808
+
+Row: 8808, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        6569
+
+Row: 6569, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        6932
+
+Row: 6932, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_median<0.857549 then node 2 elseif dissonance_median>=0.857549 then node 3 else 8539
+2  class = 8539
+3  class = 8172
+
+
+row =
+
+        8896
+
+Row: 8896, pDepth = 1, loss = 0.017544
+
+Decision tree for classification
+1  if spectral_rms_mean<0.162661 then node 2 elseif spectral_rms_mean>=0.162661 then node 3 else 8806
+2  class = 8806
+3  class = 8687
+
+
+row =
+
+        8927
+
+Row: 8927, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_rms_mean<0.162661 then node 2 elseif spectral_rms_mean>=0.162661 then node 3 else 8806
+2  class = 8806
+3  class = 8687
+
+
+row =
+
+        8767
+
+Row: 8767, pDepth = 1, loss = 0.105263
+
+Decision tree for classification
+1  if second_peak_bpm_max<0.666667 then node 2 elseif second_peak_bpm_max>=0.666667 then node 3 else 8736
+2  class = 8736
+3  class = 7749
+
+
+row =
+
+        8882
+
+Row: 8882, pDepth = 4, loss = 0.120219
+
+Decision tree for classification
+1  if scvalleys_min_3<0.370889 then node 2 elseif scvalleys_min_3>=0.370889 then node 3 else 8874
+2  class = 8874
+3  class = 8805
+
+
+row =
+
+        8781
+
+Row: 8781, pDepth = 4, loss = 0.179245
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_1<0.000963 then node 2 elseif beats_loudness_band_ratio_median_1>=0.000963 then node 3 else 8654
+2  class = 8654
+3  class = 8706
+
+
+row =
+
+        8914
+
+Row: 8914, pDepth = 6, loss = 0.141791
+
+Decision tree for classification
+1  if pitch_instantaneous_confidence_mean<0.731062 then node 2 elseif pitch_instantaneous_confidence_mean>=0.731062 then node 3 else 8887
+2  class = 8887
+3  class = 8822
+
+
+row =
+
+        8823
+
+Row: 8823, pDepth = 2, loss = 0.147059
+
+Decision tree for classification
+1  if barkbands_median_9<2.15e-05 then node 2 elseif barkbands_median_9>=2.15e-05 then node 3 else 8793
+2  class = 8593
+3  class = 8793
+
+
+row =
+
+        8916
+
+Row: 8916, pDepth = 3, loss = 0.076305
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        6869
+
+Row: 6869, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7664
+
+Row: 7664, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8071
+
+Row: 8071, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8111
+
+Row: 8111, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7518
+
+Row: 7518, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7834
+
+Row: 7834, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        6008
+
+Row: 6008, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        6260
+
+Row: 6260, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7257
+
+Row: 7257, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8276
+
+Row: 8276, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8492
+
+Row: 8492, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8412
+
+Row: 8412, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8517
+
+Row: 8517, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        6450
+
+Row: 6450, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        6973
+
+Row: 6973, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7691
+
+Row: 7691, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7528
+
+Row: 7528, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8235
+
+Row: 8235, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7471
+
+Row: 7471, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        7963
+
+Row: 7963, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8387
+
+Row: 8387, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_dmean_7<0.189042 then node 2 elseif gfcc_dmean_7>=0.189042 then node 3 else 8907
+2  class = 8907
+3  if tristimulus_dvar2_2<0.158203 then node 4 elseif tristimulus_dvar2_2>=0.158203 then node 5 else 8867
+4  class = 8867
+5  class = 8907
+
+
+row =
+
+        8563
+
+Row: 8563, pDepth = 1, loss = 0.181818
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        7277
+
+Row: 7277, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        7408
+
+Row: 7408, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8310
+
+Row: 8310, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8348
+
+Row: 8348, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        1788
+
+Row: 1788, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+   928
+
+Row: 928, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        2329
+
+Row: 2329, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        7614
+
+Row: 7614, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8046
+
+Row: 8046, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8491
+
+Row: 8491, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8614
+
+Row: 8614, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8645
+
+Row: 8645, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_19<5e-07 then node 2 elseif barkbands_var_19>=5e-07 then node 3 else 8411
+2  class = 7936
+3  class = 8411
+
+
+row =
+
+        8719
+
+Row: 8719, pDepth = 2, loss = 0.178571
+
+Decision tree for classification
+1  if spectral_rolloff_median<0.122574 then node 2 elseif spectral_rolloff_median>=0.122574 then node 3 else 8571
+2  class = 8571
+3  class = 8639
+
+
+row =
+
+        8791
+
+Row: 8791, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_rolloff_median<0.122574 then node 2 elseif spectral_rolloff_median>=0.122574 then node 3 else 8571
+2  class = 8571
+3  class = 8639
+
+
+row =
+
+        8811
+
+Row: 8811, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_rolloff_median<0.122574 then node 2 elseif spectral_rolloff_median>=0.122574 then node 3 else 8571
+2  class = 8571
+3  class = 8639
+
+
+row =
+
+        8431
+
+Row: 8431, pDepth = 1, loss = 0.062500
+
+Decision tree for classification
+1  if spectral_rms_mean<0.076959 then node 2 elseif spectral_rms_mean>=0.076959 then node 3 else 8228
+2  class = 8228
+3  class = 7946
+
+
+row =
+
+        8515
+
+Row: 8515, pDepth = 1, loss = 0.142857
+
+Decision tree for classification
+1  if gfcc_mean_3<0.478753 then node 2 elseif gfcc_mean_3>=0.478753 then node 3 else 7558
+2  class = 7558
+3  if dissonance_min<0.453499 then node 4 elseif dissonance_min>=0.453499 then node 5 else 8186
+4  class = 7558
+5  class = 8186
+
+
+row =
+
+        6797
+
+Row: 6797, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_3<0.478753 then node 2 elseif gfcc_mean_3>=0.478753 then node 3 else 7558
+2  class = 7558
+3  if dissonance_min<0.453499 then node 4 elseif dissonance_min>=0.453499 then node 5 else 8186
+4  class = 7558
+5  class = 8186
+
+
+row =
+
+        8500
+
+Row: 8500, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_mean_3<0.478753 then node 2 elseif gfcc_mean_3>=0.478753 then node 3 else 7558
+2  class = 7558
+3  if dissonance_min<0.453499 then node 4 elseif dissonance_min>=0.453499 then node 5 else 8186
+4  class = 7558
+5  class = 8186
+
+
+row =
+
+        8788
+
+Row: 8788, pDepth = 2, loss = 0.181818
+
+Decision tree for classification
+1  if spectral_contrast_median_0<0.425454 then node 2 elseif spectral_contrast_median_0>=0.425454 then node 3 else 8643
+2  class = 8643
+3  if spectral_kurtosis_dmean2<0.0004385 then node 4 elseif spectral_kurtosis_dmean2>=0.0004385 then node 5 else 8303
+4  class = 8643
+5  class = 8303
+
+
+row =
+
+        8826
+
+Row: 8826, pDepth = 2, loss = 0.103896
+
+Decision tree for classification
+1  if spectral_contrast_median_2<0.304088 then node 2 elseif spectral_contrast_median_2>=0.304088 then node 3 else 8620
+2  class = 8620
+3  class = 8778
+
+
+row =
+
+        8721
+
+Row: 8721, pDepth = 2, loss = 0.107143
+
+Decision tree for classification
+1  if spectral_contrast_dmean2_4<0.105466 then node 2 elseif spectral_contrast_dmean2_4>=0.105466 then node 3 else 8576
+2  class = 8576
+3  class = 8591
+
+
+row =
+
+        8861
+
+Row: 8861, pDepth = 2, loss = 0.111111
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_0<0.1576 then node 2 elseif beats_loudness_band_ratio_min_0>=0.1576 then node 3 else 8733
+2  class = 8733
+3  class = 8625
+
+
+row =
+
+        8761
+
+Row: 8761, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_0<0.1576 then node 2 elseif beats_loudness_band_ratio_min_0>=0.1576 then node 3 else 8733
+2  class = 8733
+3  class = 8625
+
+
+row =
+
+        8786
+
+Row: 8786, pDepth = 1, loss = 0.053571
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_2<0.396462 then node 2 elseif beats_loudness_band_ratio_min_2>=0.396462 then node 3 else 8664
+2  class = 8664
+3  class = 8452
+
+
+row =
+
+        8690
+
+Row: 8690, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_2<0.396462 then node 2 elseif beats_loudness_band_ratio_min_2>=0.396462 then node 3 else 8664
+2  class = 8664
+3  class = 8452
+
+
+row =
+
+        8731
+
+Row: 8731, pDepth = 3, loss = 0.078431
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        8608
+
+Row: 8608, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        8772
+
+Row: 8772, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        8619
+
+Row: 8619, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        8725
+
+Row: 8725, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        3025
+
+Row: 3025, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        5585
+
+Row: 5585, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        7034
+
+Row: 7034, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        7190
+
+Row: 7190, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        5191
+
+Row: 5191, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        7093
+
+Row: 7093, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        7882
+
+Row: 7882, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        7908
+
+Row: 7908, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.822059 then node 2 elseif scvalleys_median_2>=0.822059 then node 3 else 8522
+2  class = 8522
+3  class = 8547
+
+
+row =
+
+        6660
+
+Row: 6660, pDepth = 1, loss = 0.111111
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        6662
+
+Row: 6662, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        6659
+
+Row: 6659, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        7744
+
+Row: 7744, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        7702
+
+Row: 7702, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        7955
+
+Row: 7955, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        8069
+
+Row: 8069, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        8179
+
+Row: 8179, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        5426
+
+Row: 5426, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        7248
+
+Row: 7248, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        3551
+
+Row: 3551, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_mean_1<0.234135 then node 2 elseif spectral_contrast_mean_1>=0.234135 then node 3 else 4035
+2  class = 4035
+3  class = 6376
+
+
+row =
+
+        7619
+
+Row: 7619, pDepth = 1, loss = 0.075000
+
+Decision tree for classification
+1  if tristimulus_var_0<0.25687 then node 2 elseif tristimulus_var_0>=0.25687 then node 3 else 6997
+2  class = 6500
+3  class = 6997
+
+
+row =
+
+        6045
+
+Row: 6045, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_var_0<0.25687 then node 2 elseif tristimulus_var_0>=0.25687 then node 3 else 6997
+2  class = 6500
+3  class = 6997
+
+
+row =
+
+        6570
+
+Row: 6570, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_var_0<0.25687 then node 2 elseif tristimulus_var_0>=0.25687 then node 3 else 6997
+2  class = 6500
+3  class = 6997
+
+
+row =
+
+        8245
+
+Row: 8245, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if tristimulus_var_0<0.25687 then node 2 elseif tristimulus_var_0>=0.25687 then node 3 else 6997
+2  class = 6500
+3  class = 6997
+
+
+row =
+
+        8289
+
+Row: 8289, pDepth = 1, loss = 0.142857
+
+Decision tree for classification
+1  if pitch_instantaneous_confidence_mean<0.493124 then node 2 elseif pitch_instantaneous_confidence_mean>=0.493124 then node 3 else 7695
+2  class = 7695
+3  class = 8058
+
+
+row =
+
+        7078
+
+Row: 7078, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_instantaneous_confidence_mean<0.493124 then node 2 elseif pitch_instantaneous_confidence_mean>=0.493124 then node 3 else 7695
+2  class = 7695
+3  class = 8058
+
+
+row =
+
+        7253
+
+Row: 7253, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_instantaneous_confidence_mean<0.493124 then node 2 elseif pitch_instantaneous_confidence_mean>=0.493124 then node 3 else 7695
+2  class = 7695
+3  class = 8058
+
+
+row =
+
+        8370
+
+Row: 8370, pDepth = 1, loss = 0.058824
+
+Decision tree for classification
+1  if mfcc_max_12<0.311522 then node 2 elseif mfcc_max_12>=0.311522 then node 3 else 8292
+2  class = 8292
+3  class = 7864
+
+
+row =
+
+        8469
+
+Row: 8469, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if mfcc_max_12<0.311522 then node 2 elseif mfcc_max_12>=0.311522 then node 3 else 8292
+2  class = 8292
+3  class = 7864
+
+
+row =
+
+        8201
+
+Row: 8201, pDepth = 1, loss = 0.125000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        8393
+
+Row: 8393, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        7871
+
+Row: 7871, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        8592
+
+Row: 8592, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        3904
+
+Row: 3904, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        6962
+
+Row: 6962, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        7624
+
+Row: 7624, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        7628
+
+Row: 7628, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_kurtosis_mean<1.25e-05 then node 2 elseif spectral_kurtosis_mean>=1.25e-05 then node 3 else 7626
+2  class = 7464
+3  class = 7626
+
+
+row =
+
+        8508
+
+Row: 8508, pDepth = 1, loss = 0.089286
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_dmean2_5<0.0003065 then node 2 elseif beats_loudness_band_ratio_dmean2_5>=0.0003065 then node 3 else 8410
+2  class = 7671
+3  class = 8410
+
+
+row =
+
+        8569
+
+Row: 8569, pDepth = 2, loss = 0.102041
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.116919 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.116919 then node 3 else 8268
+2  class = 7677
+3  class = 8268
+
+
+row =
+
+        8777
+
+Row: 8777, pDepth = 1, loss = 0.058824
+
+Decision tree for classification
+1  if max_der_before_max_median<0.563359 then node 2 elseif max_der_before_max_median>=0.563359 then node 3 else 8455
+2  class = 8599
+3  class = 8455
+
+
+row =
+
+        8801
+
+Row: 8801, pDepth = 1, loss = 0.081633
+
+Decision tree for classification
+1  if inharmonicity_dvar<0.299663 then node 2 elseif inharmonicity_dvar>=0.299663 then node 3 else 8481
+2  class = 8481
+3  class = 8444
+
+
+row =
+
+        6733
+
+Row: 6733, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if inharmonicity_dvar<0.299663 then node 2 elseif inharmonicity_dvar>=0.299663 then node 3 else 8481
+2  class = 8481
+3  class = 8444
+
+
+row =
+
+        7333
+
+Row: 7333, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if inharmonicity_dvar<0.299663 then node 2 elseif inharmonicity_dvar>=0.299663 then node 3 else 8481
+2  class = 8481
+3  class = 8444
+
+
+row =
+
+        6473
+
+Row: 6473, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if inharmonicity_dvar<0.299663 then node 2 elseif inharmonicity_dvar>=0.299663 then node 3 else 8481
+2  class = 8481
+3  class = 8444
+
+
+row =
+
+        8280
+
+Row: 8280, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if inharmonicity_dvar<0.299663 then node 2 elseif inharmonicity_dvar>=0.299663 then node 3 else 8481
+2  class = 8481
+3  class = 8444
+
+
+row =
+
+        8425
+
+Row: 8425, pDepth = 1, loss = 0.081633
+
+Decision tree for classification
+1  if gfcc_dmean_1<0.107409 then node 2 elseif gfcc_dmean_1>=0.107409 then node 3 else 7683
+2  class = 8160
+3  class = 7683
+
+
+row =
+
+        8612
+
+Row: 8612, pDepth = 1, loss = 0.047619
+
+Decision tree for classification
+1  if max_der_before_max_min<0.542158 then node 2 elseif max_der_before_max_min>=0.542158 then node 3 else 8078
+2  class = 8269
+3  class = 8078
+
+
+row =
+
+        8299
+
+Row: 8299, pDepth = 1, loss = 0.033333
+
+Decision tree for classification
+1  if spectral_contrast_mean_4<0.303843 then node 2 elseif spectral_contrast_mean_4>=0.303843 then node 3 else 7954
+2  class = 7954
+3  class = 7753
+
+
+row =
+
+        8724
+
+Row: 8724, pDepth = 2, loss = 0.111111
+
+Decision tree for classification
+1  if frequency_bands_dmean2_1<1.5e-06 then node 2 elseif frequency_bands_dmean2_1>=1.5e-06 then node 3 else 8509
+2  if frequency_bands_dvar2_26<4.5e-06 then node 4 elseif frequency_bands_dvar2_26>=4.5e-06 then node 5 else 8509
+3  class = 8509
+4  class = 8499
+5  class = 8509
+
+
+row =
+
+        8205
+
+Row: 8205, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_dmean2_1<1.5e-06 then node 2 elseif frequency_bands_dmean2_1>=1.5e-06 then node 3 else 8509
+2  if frequency_bands_dvar2_26<4.5e-06 then node 4 elseif frequency_bands_dvar2_26>=4.5e-06 then node 5 else 8509
+3  class = 8509
+4  class = 8499
+5  class = 8509
+
+
+row =
+
+        8377
+
+Row: 8377, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_dmean2_1<1.5e-06 then node 2 elseif frequency_bands_dmean2_1>=1.5e-06 then node 3 else 8509
+2  if frequency_bands_dvar2_26<4.5e-06 then node 4 elseif frequency_bands_dvar2_26>=4.5e-06 then node 5 else 8509
+3  class = 8509
+4  class = 8499
+5  class = 8509
+
+
+row =
+
+        6448
+
+Row: 6448, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if frequency_bands_dmean2_1<1.5e-06 then node 2 elseif frequency_bands_dmean2_1>=1.5e-06 then node 3 else 8509
+2  if frequency_bands_dvar2_26<4.5e-06 then node 4 elseif frequency_bands_dvar2_26>=4.5e-06 then node 5 else 8509
+3  class = 8509
+4  class = 8499
+5  class = 8509
+
+
+row =
+
+        8588
+
+Row: 8588, pDepth = 1, loss = 0.022727
+
+Decision tree for classification
+1  if spectral_contrast_max_2<0.244373 then node 2 elseif spectral_contrast_max_2>=0.244373 then node 3 else 7832
+2  class = 7942
+3  class = 7832
+
+
+row =
+
+        7015
+
+Row: 7015, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_max_2<0.244373 then node 2 elseif spectral_contrast_max_2>=0.244373 then node 3 else 7832
+2  class = 7942
+3  class = 7832
+
+
+row =
+
+        7659
+
+Row: 7659, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_contrast_max_2<0.244373 then node 2 elseif spectral_contrast_max_2>=0.244373 then node 3 else 7832
+2  class = 7942
+3  class = 7832
+
+
+row =
+
+        8501
+
+Row: 8501, pDepth = 1, loss = 0.023810
+
+Decision tree for classification
+1  if barkbands_mean_26<0.0001275 then node 2 elseif barkbands_mean_26>=0.0001275 then node 3 else 7668
+2  class = 7668
+3  class = 8122
+
+
+row =
+
+        8535
+
+Row: 8535, pDepth = 1, loss = 0.080000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_min_5<0.279003 then node 2 elseif beats_loudness_band_ratio_min_5>=0.279003 then node 3 else 8353
+2  class = 7750
+3  class = 8353
+
+
+row =
+
+        8142
+
+Row: 8142, pDepth = 1, loss = 0.162791
+
+Decision tree for classification
+ 1  if barkbands_var_17<1.2e-05 then node 2 elseif barkbands_var_17>=1.2e-05 then node 3 else 7798
+ 2  if frequency_bands_dmean2_12<0.0042235 then node 4 elseif frequency_bands_dmean2_12>=0.0042235 then node 5 else 7798
+ 3  class = 7917
+ 4  if frequency_bands_var_9<1.5e-05 then node 6 elseif frequency_bands_var_9>=1.5e-05 then node 7 else 7798
+ 5  class = 7917
+ 6  if frequency_bands_dmean2_12<8.35e-05 then node 8 elseif frequency_bands_dmean2_12>=8.35e-05 then node 9 else 7798
+ 7  class = 7798
+ 8  class = 7798
+ 9  if frequency_bands_dmean2_12<0.0019425 then node 10 elseif frequency_bands_dmean2_12>=0.0019425 then node 11 else 7917
+10  class = 7917
+11  class = 7798
+
+
+row =
+
+        8368
+
+Row: 8368, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+ 1  if barkbands_var_17<1.2e-05 then node 2 elseif barkbands_var_17>=1.2e-05 then node 3 else 7798
+ 2  if frequency_bands_dmean2_12<0.0042235 then node 4 elseif frequency_bands_dmean2_12>=0.0042235 then node 5 else 7798
+ 3  class = 7917
+ 4  if frequency_bands_var_9<1.5e-05 then node 6 elseif frequency_bands_var_9>=1.5e-05 then node 7 else 7798
+ 5  class = 7917
+ 6  if frequency_bands_dmean2_12<8.35e-05 then node 8 elseif frequency_bands_dmean2_12>=8.35e-05 then node 9 else 7798
+ 7  class = 7798
+ 8  class = 7798
+ 9  if frequency_bands_dmean2_12<0.0019425 then node 10 elseif frequency_bands_dmean2_12>=0.0019425 then node 11 else 7917
+10  class = 7917
+11  class = 7798
+
+
+row =
+
+        8382
+
+Row: 8382, pDepth = 1, loss = 0.115385
+
+Decision tree for classification
+1  if frequency_bands_dvar2_10<5.15e-05 then node 2 elseif frequency_bands_dvar2_10>=5.15e-05 then node 3 else 6636
+2  if barkbands_var_4<0.0031125 then node 4 elseif barkbands_var_4>=0.0031125 then node 5 else 6636
+3  if barkbands_var_4<1.2e-05 then node 6 elseif barkbands_var_4>=1.2e-05 then node 7 else 7101
+4  class = 6636
+5  class = 7101
+6  class = 6636
+7  class = 7101
+
+
+row =
+
+        8658
+
+Row: 8658, pDepth = 1, loss = 0.090909
+
+Decision tree for classification
+1  if spectral_contrast_var_2<0.012531 then node 2 elseif spectral_contrast_var_2>=0.012531 then node 3 else 8274
+2  class = 8445
+3  class = 8274
+
+
+row =
+
+        5730
+
+Row: 5730, pDepth = 1, loss = 0.074074
+
+Decision tree for classification
+1  if mfcc_dmean_0<0.137688 then node 2 elseif mfcc_dmean_0>=0.137688 then node 3 else 4773
+2  class = 2875
+3  class = 4773
+
+
+row =
+
+        8038
+
+Row: 8038, pDepth = 1, loss = 0.027778
+
+Decision tree for classification
+1  if silence_rate_60dB_dvar2<0.184306 then node 2 elseif silence_rate_60dB_dvar2>=0.184306 then node 3 else 7209
+2  class = 7209
+3  class = 6792
+
+
+row =
+
+        8740
+
+Row: 8740, pDepth = 2, loss = 0.181818
+
+Decision tree for classification
+1  if frequency_bands_dmean2_4<0.000412 then node 2 elseif frequency_bands_dmean2_4>=0.000412 then node 3 else 8496
+2  class = 8496
+3  if spectral_energyband_high_dvar2<0.002833 then node 4 elseif spectral_energyband_high_dvar2>=0.002833 then node 5 else 8560
+4  if frequency_bands_dmean2_4<0.0095645 then node 6 elseif frequency_bands_dmean2_4>=0.0095645 then node 7 else 8560
+5  class = 8496
+6  if barkbands_dvar2_7<5.35e-05 then node 8 elseif barkbands_dvar2_7>=5.35e-05 then node 9 else 8560
+7  class = 8560
+8  class = 8560
+9  class = 8496
+
+
+row =
+
+        8758
+
+Row: 8758, pDepth = 1, loss = 0.029412
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        7323
+
+Row: 7323, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        7958
+
+Row: 7958, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        8594
+
+Row: 8594, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        8718
+
+Row: 8718, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        8396
+
+Row: 8396, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if pitch_centroid_mean<0.711223 then node 2 elseif pitch_centroid_mean>=0.711223 then node 3 else 8655
+2  class = 8655
+3  class = 8159
+
+
+row =
+
+        8689
+
+Row: 8689, pDepth = 1, loss = 0.034483
+
+Decision tree for classification
+1  if gfcc_dmean2_3<0.318661 then node 2 elseif gfcc_dmean2_3>=0.318661 then node 3 else 8405
+2  class = 8405
+3  class = 8573
+
+
+row =
+
+        8671
+
+Row: 8671, pDepth = 1, loss = 0.095238
+
+Decision tree for classification
+1  if silence_rate_60dB_mean<0.875215 then node 2 elseif silence_rate_60dB_mean>=0.875215 then node 3 else 8039
+2  class = 8039
+3  class = 7615
+
+
+row =
+
+        8694
+
+Row: 8694, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if silence_rate_60dB_mean<0.875215 then node 2 elseif silence_rate_60dB_mean>=0.875215 then node 3 else 8039
+2  class = 8039
+3  class = 7615
+
+
+row =
+
+        8557
+
+Row: 8557, pDepth = 3, loss = 0.150685
+
+Decision tree for classification
+1  if spectral_skewness_min<0.963354 then node 2 elseif spectral_skewness_min>=0.963354 then node 3 else 8093
+2  class = 8344
+3  class = 8093
+
+
+row =
+
+        8626
+
+Row: 8626, pDepth = 1, loss = 0.076923
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_3<0.489398 then node 2 elseif beats_loudness_band_ratio_mean_3>=0.489398 then node 3 else 8355
+2  class = 8355
+3  class = 8422
+
+
+row =
+
+        8566
+
+Row: 8566, pDepth = 1, loss = 0.045455
+
+Decision tree for classification
+1  if scvalleys_dvar_5<0.0120155 then node 2 elseif scvalleys_dvar_5>=0.0120155 then node 3 else 8415
+2  class = 8030
+3  class = 8415
+
+
+row =
+
+        8813
+
+Row: 8813, pDepth = 1, loss = 0.080645
+
+Decision tree for classification
+1  if mfcc_max_0<0.625379 then node 2 elseif mfcc_max_0>=0.625379 then node 3 else 8627
+2  class = 8627
+3  class = 8653
+
+
+row =
+
+        8603
+
+Row: 8603, pDepth = 1, loss = 0.030303
+
+Decision tree for classification
+1  if dissonance_dmean<0.036456 then node 2 elseif dissonance_dmean>=0.036456 then node 3 else 7897
+2  class = 7555
+3  class = 7897
+
+
+row =
+
+        8780
+
+Row: 8780, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if dissonance_dmean<0.036456 then node 2 elseif dissonance_dmean>=0.036456 then node 3 else 7897
+2  class = 7555
+3  class = 7897
+
+
+row =
+
+        8789
+
+Row: 8789, pDepth = 4, loss = 0.177083
+
+Decision tree for classification
+1  if spectral_entropy_dmean<0.0841085 then node 2 elseif spectral_entropy_dmean>=0.0841085 then node 3 else 8624
+2  class = 8339
+3  class = 8624
+
+
+row =
+
+        8842
+
+Row: 8842, pDepth = 2, loss = 0.153374
+
+Decision tree for classification
+1  if scvalleys_min_0<0.437758 then node 2 elseif scvalleys_min_0>=0.437758 then node 3 else 8803
+2  class = 8803
+3  class = 8754
+
+
+row =
+
+        8656
+
+Row: 8656, pDepth = 1, loss = 0.083333
+
+Decision tree for classification
+1  if gfcc_median_1<0.294408 then node 2 elseif gfcc_median_1>=0.294408 then node 3 else 8498
+2  class = 7813
+3  class = 8498
+
+
+row =
+
+        8667
+
+Row: 8667, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if gfcc_median_1<0.294408 then node 2 elseif gfcc_median_1>=0.294408 then node 3 else 8498
+2  class = 7813
+3  class = 8498
+
+
+row =
+
+        8699
+
+Row: 8699, pDepth = 1, loss = 0.019608
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.177665 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.177665 then node 3 else 8577
+2  class = 8577
+3  class = 8544
+
+
+row =
+
+        8746
+
+Row: 8746, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.177665 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.177665 then node 3 else 8577
+2  class = 8577
+3  class = 8544
+
+
+row =
+
+        8640
+
+Row: 8640, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.177665 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.177665 then node 3 else 8577
+2  class = 8577
+3  class = 8544
+
+
+row =
+
+        8692
+
+Row: 8692, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.177665 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.177665 then node 3 else 8577
+2  class = 8577
+3  class = 8544
+
+
+row =
+
+        8714
+
+Row: 8714, pDepth = 1, loss = 0.030769
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.538998 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.538998 then node 3 else 8507
+2  class = 8507
+3  class = 8261
+
+
+row =
+
+        8792
+
+Row: 8792, pDepth = 2, loss = 0.140845
+
+Decision tree for classification
+ 1  if frequency_bands_dmean2_17<0.0004845 then node 2 elseif frequency_bands_dmean2_17>=0.0004845 then node 3 else 8715
+ 2  if tristimulus_min_1<0.008642 then node 4 elseif tristimulus_min_1>=0.008642 then node 5 else 8715
+ 3  if frequency_bands_dmean2_17<0.001461 then node 6 elseif frequency_bands_dmean2_17>=0.001461 then node 7 else 8613
+ 4  if frequency_bands_dmean_16<0.000217 then node 8 elseif frequency_bands_dmean_16>=0.000217 then node 9 else 8715
+ 5  class = 8613
+ 6  if frequency_bands_dmean_16<0.0001365 then node 10 elseif frequency_bands_dmean_16>=0.0001365 then node 11 else 8613
+ 7  if frequency_bands_dmean_16<0.0025025 then node 12 elseif frequency_bands_dmean_16>=0.0025025 then node 13 else 8715
+ 8  class = 8715
+ 9  if erb_bands_dvar2_7<5.5e-06 then node 14 elseif erb_bands_dvar2_7>=5.5e-06 then node 15 else 8715
+10  class = 8715
+11  class = 8613
+12  if frequency_bands_dmean_16<0.0011695 then node 16 elseif frequency_bands_dmean_16>=0.0011695 then node 17 else 8715
+13  class = 8613
+14  if tristimulus_min_1<0.000348 then node 18 elseif tristimulus_min_1>=0.000348 then node 19 else 8613
+15  if frequency_bands_dmean_16<0.0002655 then node 20 elseif frequency_bands_dmean_16>=0.0002655 then node 21 else 8715
+16  if erb_bands_dvar2_7<7.65e-05 then node 22 elseif erb_bands_dvar2_7>=7.65e-05 then node 23 else 8715
+17  class = 8715
+18  if frequency_bands_dmean2_17<0.000276 then node 24 elseif frequency_bands_dmean2_17>=0.000276 then node 25 else 8613
+19  class = 8715
+20  class = 8613
+21  class = 8715
+22  if frequency_bands_dmean2_17<0.0113015 then node 26 elseif frequency_bands_dmean2_17>=0.0113015 then node 27 else 8715
+23  class = 8715
+24  if frequency_bands_dmean_16<0.000512 then node 28 elseif frequency_bands_dmean_16>=0.000512 then node 29 else 8715
+25  class = 8613
+26  if frequency_bands_dmean2_17<0.0050595 then node 30 elseif frequency_bands_dmean2_17>=0.0050595 then node 31 else 8613
+27  class = 8715
+28  class = 8613
+29  class = 8715
+30  class = 8715
+31  class = 8613
+
+
+row =
+
+        8378
+
+Row: 8378, pDepth = 1, loss = 0.108108
+
+Decision tree for classification
+1  if first_peak_spread_min<0.099624 then node 2 elseif first_peak_spread_min>=0.099624 then node 3 else 8129
+2  class = 8129
+3  class = 7757
+
+
+row =
+
+        8531
+
+Row: 8531, pDepth = 1, loss = 0.093023
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_0<1.5e-06 then node 2 elseif beats_loudness_band_ratio_max_0>=1.5e-06 then node 3 else 8476
+2  class = 7554
+3  class = 8476
+
+
+row =
+
+        8604
+
+Row: 8604, pDepth = 1, loss = 0.093750
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_0<0.499813 then node 2 elseif beats_loudness_band_ratio_median_0>=0.499813 then node 3 else 8225
+2  class = 8225
+3  class = 7956
+
+
+row =
+
+        8702
+
+Row: 8702, pDepth = 3, loss = 0.130952
+
+Decision tree for classification
+1  if max_der_before_max_mean<0.547416 then node 2 elseif max_der_before_max_mean>=0.547416 then node 3 else 8466
+2  class = 8466
+3  class = 8340
+
+
+row =
+
+        8386
+
+Row: 8386, pDepth = 2, loss = 0.125000
+
+Decision tree for classification
+1  if scvalleys_median_2<0.744365 then node 2 elseif scvalleys_median_2>=0.744365 then node 3 else 8182
+2  class = 8182
+3  class = 7455
+
+
+row =
+
+        8862
+
+Row: 8862, pDepth = 3, loss = 0.118343
+
+Decision tree for classification
+1  if spectral_flux_median<0.020283 then node 2 elseif spectral_flux_median>=0.020283 then node 3 else 8701
+2  if spectral_skewness_median<0.0641445 then node 4 elseif spectral_skewness_median>=0.0641445 then node 5 else 8701
+3  class = 8802
+4  class = 8701
+5  class = 8802
+
+
+row =
+
+        8737
+
+Row: 8737, pDepth = 2, loss = 0.132530
+
+Decision tree for classification
+1  if spectral_rms_max<0.181331 then node 2 elseif spectral_rms_max>=0.181331 then node 3 else 8681
+2  class = 8681
+3  class = 8372
+
+
+row =
+
+        8899
+
+Row: 8899, pDepth = 1, loss = 0.022727
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        7673
+
+Row: 7673, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8361
+
+Row: 8361, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8190
+
+Row: 8190, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8417
+
+Row: 8417, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8433
+
+Row: 8433, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8700
+
+Row: 8700, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_2<6.5e-06 then node 2 elseif beats_loudness_band_ratio_var_2>=6.5e-06 then node 3 else 8847
+2  class = 8847
+3  class = 8827
+
+
+row =
+
+        8610
+
+Row: 8610, pDepth = 1, loss = 0.064516
+
+Decision tree for classification
+1  if frequency_bands_dvar_1<0.001967 then node 2 elseif frequency_bands_dvar_1>=0.001967 then node 3 else 8407
+2  class = 7899
+3  class = 8407
+
+
+row =
+
+        8666
+
+Row: 8666, pDepth = 1, loss = 0.047619
+
+Decision tree for classification
+1  if erb_bands_median_1<5e-07 then node 2 elseif erb_bands_median_1>=5e-07 then node 3 else 8314
+2  class = 7766
+3  class = 8314
+
+
+row =
+
+        8089
+
+Row: 8089, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if erb_bands_median_1<5e-07 then node 2 elseif erb_bands_median_1>=5e-07 then node 3 else 8314
+2  class = 7766
+3  class = 8314
+
+
+row =
+
+        8782
+
+Row: 8782, pDepth = 1, loss = 0.062500
+
+Decision tree for classification
+1  if frequency_bands_dmean2_15<1.5e-06 then node 2 elseif frequency_bands_dmean2_15>=1.5e-06 then node 3 else 8556
+2  class = 8695
+3  class = 8556
+
+
+row =
+
+        8709
+
+Row: 8709, pDepth = 1, loss = 0.095238
+
+Decision tree for classification
+1  if first_peak_weight_min<0.816666 then node 2 elseif first_peak_weight_min>=0.816666 then node 3 else 8518
+2  class = 8413
+3  class = 8518
+
+
+row =
+
+        8796
+
+Row: 8796, pDepth = 3, loss = 0.172727
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.24911 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.24911 then node 3 else 8756
+2  class = 8756
+3  class = 8636
+
+
+row =
+
+        8810
+
+Row: 8810, pDepth = 2, loss = 0.103448
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_1<0.222984 then node 2 elseif beats_loudness_band_ratio_max_1>=0.222984 then node 3 else 8638
+2  class = 8638
+3  class = 8631
+
+
+row =
+
+        8878
+
+Row: 8878, pDepth = 1, loss = 0.044776
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_3<5e-07 then node 2 elseif beats_loudness_band_ratio_median_3>=5e-07 then node 3 else 8855
+2  class = 8732
+3  class = 8855
+
+
+row =
+
+        7450
+
+Row: 7450, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_3<5e-07 then node 2 elseif beats_loudness_band_ratio_median_3>=5e-07 then node 3 else 8855
+2  class = 8732
+3  class = 8855
+
+
+row =
+
+        8917
+
+Row: 8917, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_3<5e-07 then node 2 elseif beats_loudness_band_ratio_median_3>=5e-07 then node 3 else 8855
+2  class = 8732
+3  class = 8855
+
+
+row =
+
+        8590
+
+Row: 8590, pDepth = 1, loss = 0.018868
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_0<0.145259 then node 2 elseif beats_loudness_band_ratio_median_0>=0.145259 then node 3 else 7867
+2  class = 7699
+3  class = 7867
+
+
+row =
+
+        8648
+
+Row: 8648, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_median_0<0.145259 then node 2 elseif beats_loudness_band_ratio_median_0>=0.145259 then node 3 else 7867
+2  class = 7699
+3  class = 7867
+
+
+row =
+
+        8596
+
+Row: 8596, pDepth = 1, loss = 0.113208
+
+Decision tree for classification
+1  if logattacktime_max<0.590546 then node 2 elseif logattacktime_max>=0.590546 then node 3 else 8328
+2  class = 8328
+3  class = 8133
+
+
+row =
+
+        8642
+
+Row: 8642, pDepth = 1, loss = 0.049587
+
+Decision tree for classification
+1  if silence_rate_30dB_dvar2<0.015404 then node 2 elseif silence_rate_30dB_dvar2>=0.015404 then node 3 else 8343
+2  class = 8343
+3  class = 8559
+
+
+row =
+
+        8673
+
+Row: 8673, pDepth = 1, loss = 0.102041
+
+Decision tree for classification
+1  if scvalleys_max_1<0.593168 then node 2 elseif scvalleys_max_1>=0.593168 then node 3 else 8428
+2  class = 8234
+3  class = 8428
+
+
+row =
+
+        8713
+
+Row: 8713, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_max_1<0.593168 then node 2 elseif scvalleys_max_1>=0.593168 then node 3 else 8428
+2  class = 8234
+3  class = 8428
+
+
+row =
+
+        8742
+
+Row: 8742, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if scvalleys_max_1<0.593168 then node 2 elseif scvalleys_max_1>=0.593168 then node 3 else 8428
+2  class = 8234
+3  class = 8428
+
+
+row =
+
+        8851
+
+Row: 8851, pDepth = 5, loss = 0.162963
+
+Decision tree for classification
+1  if spectral_flatness_db_dvar<0.022638 then node 2 elseif spectral_flatness_db_dvar>=0.022638 then node 3 else 8717
+2  class = 8580
+3  class = 8717
+
+
+row =
+
+        8458
+
+Row: 8458, pDepth = 1, loss = 0.105263
+
+Decision tree for classification
+1  if spectral_entropy_var<0.008238 then node 2 elseif spectral_entropy_var>=0.008238 then node 3 else 8104
+2  class = 7759
+3  class = 8104
+
+
+row =
+
+        8618
+
+Row: 8618, pDepth = 2, loss = 0.109091
+
+Decision tree for classification
+1  if zerocrossingrate_max<0.495847 then node 2 elseif zerocrossingrate_max>=0.495847 then node 3 else 8545
+2  class = 7886
+3  class = 8545
+
+
+row =
+
+        8817
+
+Row: 8817, pDepth = 2, loss = 0.058824
+
+Decision tree for classification
+1  if scvalleys_min_1<0.063374 then node 2 elseif scvalleys_min_1>=0.063374 then node 3 else 8728
+2  class = 8649
+3  class = 8728
+
+
+row =
+
+        8830
+
+Row: 8830, pDepth = 4, loss = 0.154545
+
+Decision tree for classification
+1  if spectral_decrease_mean<0.89364 then node 2 elseif spectral_decrease_mean>=0.89364 then node 3 else 8674
+2  class = 8646
+3  class = 8674
+
+
+row =
+
+        8521
+
+Row: 8521, pDepth = 2, loss = 0.096154
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.644724 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.644724 then node 3 else 8079
+2  class = 7543
+3  class = 8079
+
+
+row =
+
+        8800
+
+Row: 8800, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_0<0.644724 then node 2 elseif beats_loudness_band_ratio_mean_0>=0.644724 then node 3 else 8079
+2  class = 7543
+3  class = 8079
+
+
+row =
+
+        8845
+
+Row: 8845, pDepth = 3, loss = 0.120253
+
+Decision tree for classification
+1  if spectral_energyband_high_max<0.001368 then node 2 elseif spectral_energyband_high_max>=0.001368 then node 3 else 8825
+2  class = 8825
+3  class = 8704
+
+
+row =
+
+        8889
+
+Row: 8889, pDepth = 1, loss = 0.027322
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        6804
+
+Row: 6804, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        7906
+
+Row: 7906, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        6948
+
+Row: 6948, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        8009
+
+Row: 8009, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        7066
+
+Row: 7066, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        7381
+
+Row: 7381, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        6675
+
+Row: 6675, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_max<0.431704 then node 2 elseif first_peak_spread_max>=0.431704 then node 3 else 8779
+2  class = 8779
+3  class = 8749
+
+
+row =
+
+        7995
+
+Row: 7995, pDepth = 1, loss = 0.047619
+
+Decision tree for classification
+1  if spectral_flux_dmean<0.007513 then node 2 elseif spectral_flux_dmean>=0.007513 then node 3 else 7083
+2  class = 7083
+3  class = 7681
+
+
+row =
+
+        8669
+
+Row: 8669, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_flux_dmean<0.007513 then node 2 elseif spectral_flux_dmean>=0.007513 then node 3 else 7083
+2  class = 7083
+3  class = 7681
+
+
+row =
+
+        8820
+
+Row: 8820, pDepth = 2, loss = 0.169014
+
+Decision tree for classification
+1  if effective_duration_min<0.103585 then node 2 elseif effective_duration_min>=0.103585 then node 3 else 8797
+2  class = 8680
+3  class = 8797
+
+
+row =
+
+        8795
+
+Row: 8795, pDepth = 2, loss = 0.100000
+
+Decision tree for classification
+1  if spectral_energy_var<0.0035125 then node 2 elseif spectral_energy_var>=0.0035125 then node 3 else 8762
+2  class = 8762
+3  class = 8558
+
+
+row =
+
+        8859
+
+Row: 8859, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_energy_var<0.0035125 then node 2 elseif spectral_energy_var>=0.0035125 then node 3 else 8762
+2  class = 8762
+3  class = 8558
+
+
+row =
+
+        8834
+
+Row: 8834, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_energy_var<0.0035125 then node 2 elseif spectral_energy_var>=0.0035125 then node 3 else 8762
+2  class = 8762
+3  class = 8558
+
+
+row =
+
+        8844
+
+Row: 8844, pDepth = 3, loss = 0.180180
+
+Decision tree for classification
+1  if first_peak_spread_min<0.069737 then node 2 elseif first_peak_spread_min>=0.069737 then node 3 else 8676
+2  class = 8676
+3  class = 8647
+
+
+row =
+
+        8849
+
+Row: 8849, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if first_peak_spread_min<0.069737 then node 2 elseif first_peak_spread_min>=0.069737 then node 3 else 8676
+2  class = 8676
+3  class = 8647
+
+
+row =
+
+        8853
+
+Row: 8853, pDepth = 1, loss = 0.060000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        6761
+
+Row: 6761, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        6868
+
+Row: 6868, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        7824
+
+Row: 7824, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        6110
+
+Row: 6110, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        7223
+
+Row: 7223, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        8172
+
+Row: 8172, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_crest_mean<0.481765 then node 2 elseif spectral_crest_mean>=0.481765 then node 3 else 8597
+2  class = 8597
+3  class = 8747
+
+
+row =
+
+        8539
+
+Row: 8539, pDepth = 1, loss = 0.027778
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        4617
+
+Row: 4617, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        7161
+
+Row: 7161, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8438
+
+Row: 8438, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8526
+
+Row: 8526, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8486
+
+Row: 8486, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8729
+
+Row: 8729, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8687
+
+Row: 8687, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_var_5<0.0411295 then node 2 elseif beats_loudness_band_ratio_var_5>=0.0411295 then node 3 else 8388
+2  class = 7930
+3  class = 8388
+
+
+row =
+
+        8806
+
+Row: 8806, pDepth = 1, loss = 0.082353
+
+Decision tree for classification
+1  if silence_rate_20dB_dmean<0.017467 then node 2 elseif silence_rate_20dB_dmean>=0.017467 then node 3 else 8668
+2  class = 8668
+3  class = 8609
+
+
+row =
+
+        8600
+
+Row: 8600, pDepth = 0, loss = 1.000000
+
+Decision tree for classification
+1  if silence_rate_20dB_dmean<0.017467 then node 2 elseif silence_rate_20dB_dmean>=0.017467 then node 3 else 8668
+2  class = 8668
+3  class = 8609
+
+
+row =
+
+        8866
+
+Row: 8866, pDepth = 2, loss = 0.150000
+
+Decision tree for classification
+1  if barkbands_var_11<0.000645 then node 2 elseif barkbands_var_11>=0.000645 then node 3 else 8809
+2  class = 8809
+3  if frequency_bands_max_8<0.0328895 then node 4 elseif frequency_bands_max_8>=0.0328895 then node 5 else 8839
+4  class = 8839
+5  if barkbands_max_21<1.9e-05 then node 6 elseif barkbands_max_21>=1.9e-05 then node 7 else 8809
+6  class = 8839
+7  class = 8809
+
+
+row =
+
+        7749
+
+Row: 7749, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if barkbands_var_11<0.000645 then node 2 elseif barkbands_var_11>=0.000645 then node 3 else 8809
+2  class = 8809
+3  if frequency_bands_max_8<0.0328895 then node 4 elseif frequency_bands_max_8>=0.0328895 then node 5 else 8839
+4  class = 8839
+5  if barkbands_max_21<1.9e-05 then node 6 elseif barkbands_max_21>=1.9e-05 then node 7 else 8809
+6  class = 8839
+7  class = 8809
+
+
+row =
+
+        8736
+
+Row: 8736, pDepth = 1, loss = 0.056604
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_mean_5<0.391387 then node 2 elseif beats_loudness_band_ratio_mean_5>=0.391387 then node 3 else 8691
+2  class = 8691
+3  class = 8416
+
+
+row =
+
+        8805
+
+Row: 8805, pDepth = 1, loss = 0.057971
+
+Decision tree for classification
+1  if spectral_contrast_max_1<0.574351 then node 2 elseif spectral_contrast_max_1>=0.574351 then node 3 else 8684
+2  class = 8550
+3  class = 8684
+
+
+row =
+
+        8874
+
+Row: 8874, pDepth = 4, loss = 0.122807
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_3<0.0886285 then node 2 elseif beats_loudness_band_ratio_max_3>=0.0886285 then node 3 else 8770
+2  class = 8798
+3  class = 8770
+
+
+row =
+
+        8654
+
+Row: 8654, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if beats_loudness_band_ratio_max_3<0.0886285 then node 2 elseif beats_loudness_band_ratio_max_3>=0.0886285 then node 3 else 8770
+2  class = 8798
+3  class = 8770
+
+
+row =
+
+        8706
+
+Row: 8706, pDepth = 1, loss = 0.044444
+
+Decision tree for classification
+1  if spectral_contrast_max_1<0.641064 then node 2 elseif spectral_contrast_max_1>=0.641064 then node 3 else 8504
+2  class = 8504
+3  class = 8192
+
+
+row =
+
+        8822
+
+Row: 8822, pDepth = 1, loss = 0.063291
+
+Decision tree for classification
+1  if inharmonicity_mean<0.0065225 then node 2 elseif inharmonicity_mean>=0.0065225 then node 3 else 8763
+2  class = 8651
+3  class = 8763
+
+
+row =
+
+        8887
+
+Row: 8887, pDepth = 6, loss = 0.137566
+
+Decision tree for classification
+1  if spectral_centroid_var<0.0022275 then node 2 elseif spectral_centroid_var>=0.0022275 then node 3 else 8818
+2  class = 8685
+3  class = 8818
+
+
+row =
+
+        8593
+
+Row: 8593, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_centroid_var<0.0022275 then node 2 elseif spectral_centroid_var>=0.0022275 then node 3 else 8818
+2  class = 8685
+3  class = 8818
+
+
+row =
+
+        8793
+
+Row: 8793, pDepth = 1, loss = 1.000000
+
+Decision tree for classification
+1  if spectral_centroid_var<0.0022275 then node 2 elseif spectral_centroid_var>=0.0022275 then node 3 else 8818
+2  class = 8685
+3  class = 8818
+
+
+row =
+
+        8867
+
+Row: 8867, pDepth = 1, loss = 0.047619
+
+Decision tree for classification
+1  if gfcc_mean_0<0.826244 then node 2 elseif gfcc_mean_0>=0.826244 then node 3 else 8751
+2  class = 8751
+3  class = 8814
+
+
+row =
+
+        8907
+
+Row: 8907, pDepth = 3, loss = 0.106280
+
+Decision tree for classification
+1  if spectral_contrast_max_4<0.46882 then node 2 elseif spectral_contrast_max_4>=0.46882 then node 3 else 8892
+2  class = 8892
+3  class = 8787
+
+
+row =
+
+        7000
+
+
+row =
+
+        6920
+
+
+row =
+
+        7265
+
+
+row =
+
+        7536
+
+
+row =
+
+        6798
+
+
+row =
+
+        7374
+
+
+row =
+
+        4902
+
+
+row =
+
+        6179
+
+
+row =
+
+        8193
+
+
+row =
+
+        7938
+
+
+row =
+
+        8055
+
+
+row =
+
+        8023
+
+
+row =
+
+        8281
+
+
+row =
+
+        6958
+
+
+row =
+
+        7244
+
+
+row =
+
+        7873
+
+
+row =
+
+        7796
+
+
+row =
+
+        8034
+
+
+row =
+
+        8350
+
+
+row =
+
+        7936
+
+
+row =
+
+        8411
+
+
+row =
+
+        5805
+
+
+row =
+
+        6364
+
+
+row =
+
+        6233
+
+
+row =
+
+        7341
+
+
+row =
+
+        8080
+
+
+row =
+
+        1987
+
+
+row =
+
+        6722
+
+
+row =
+
+        7116
+
+
+row =
+
+        7388
+
+
+row =
+
+        7674
+
+
+row =
+
+        6367
+
+
+row =
+
+        8135
+
+
+row =
+
+        7974
+
+
+row =
+
+        8356
+
+
+row =
+
+        7961
+
+
+row =
+
+        8607
+
+
+row =
+
+        8571
+
+
+row =
+
+        8639
+
+
+row =
+
+        8505
+
+
+row =
+
+        8766
+
+
+row =
+
+        8663
+
+
+row =
+
+        8705
+
+
+row =
+
+        7946
+
+
+row =
+
+        8228
+
+
+row =
+
+        7558
+
+
+row =
+
+        8186
+
+
+row =
+
+        5006
+
+
+row =
+
+        6126
+
+
+row =
+
+        6974
+
+
+row =
+
+        8352
+
+
+row =
+
+        8303
+
+
+row =
+
+        8643
+
+
+row =
+
+        8620
+
+
+row =
+
+        8778
+
+
+row =
+
+        8576
+
+
+row =
+
+        8591
+
+
+row =
+
+        8625
+
+
+row =
+
+        8733
+
+
+row =
+
+        7703
+
+
+row =
+
+        8436
+
+
+row =
+
+        8452
+
+
+row =
+
+        8664
+
+
+row =
+
+        8091
+
+
+row =
+
+        8219
+
+
+row =
+
+        8522
+
+
+row =
+
+        8547
+
+
+row =
+
+        8511
+
+
+row =
+
+        8575
+
+
+row =
+
+        8524
+
+
+row =
+
+        8326
+
+
+row =
+
+        8561
+
+
+row =
+
+        8439
+
+
+row =
+
+        8461
+
+
+row =
+
+        2361
+
+
+row =
+
+        4119
+
+
+row =
+
+        5299
+
+
+row =
+
+        6338
+
+
+row =
+
+        6445
+
+
+row =
+
+        1901
+
+
+row =
+
+        5174
+
+
+row =
+
+        6530
+
+
+row =
+
+        6766
+
+
+row =
+
+        5504
+
+
+row =
+
+        7581
+
+
+row =
+
+        4035
+
+
+row =
+
+        6376
+
+
+row =
+
+        4761
+
+
+row =
+
+        4901
+
+
+row =
+
+        5111
+
+
+row =
+
+        5235
+
+
+row =
+
+        6597
+
+
+row =
+
+        7428
+
+
+row =
+
+        6652
+
+
+row =
+
+        6934
+
+
+row =
+
+        7035
+
+
+row =
+
+        7266
+
+
+row =
+
+        7200
+
+
+row =
+
+        7770
+
+
+row =
+
+        6283
+
+
+row =
+
+        7875
+
+
+row =
+
+        2898
+
+
+row =
+
+        4236
+
+
+row =
+
+        3680
+
+
+row =
+
+        4806
+
+
+row =
+
+   408
+
+
+row =
+
+        1764
+
+
+row =
+
+        6500
+
+
+row =
+
+        6997
+
+
+row =
+
+        5716
+
+
+row =
+
+        6307
+
+
+row =
+
+        6572
+
+
+row =
+
+        7451
+
+
+row =
+
+        7695
+
+
+row =
+
+        8058
+
+
+row =
+
+        5497
+
+
+row =
+
+        6565
+
+
+row =
+
+        5891
+
+
+row =
+
+        7864
+
+
+row =
+
+        8292
+
+
+row =
+
+        8252
+
+
+row =
+
+        7464
+
+
+row =
+
+        7626
+
+
+row =
+
+        6713
+
+
+row =
+
+        7971
+
+
+row =
+
+        6905
+
+
+row =
+
+        7317
+
+
+row =
+
+        7377
+
+
+row =
+
+        8070
+
+
+row =
+
+        4199
+
+
+row =
+
+        6035
+
+
+row =
+
+        5745
+
+
+row =
+
+        6282
+
+
+row =
+
+        5878
+
+
+row =
+
+        6292
+
+
+row =
+
+        7671
+
+
+row =
+
+        8410
+
+
+row =
+
+        7677
+
+
+row =
+
+        8268
+
+
+row =
+
+        8455
+
+
+row =
+
+        8599
+
+
+row =
+
+        8444
+
+
+row =
+
+        8481
+
+
+row =
+
+        5364
+
+
+row =
+
+        5588
+
+
+row =
+
+   975
+
+
+row =
+
+        5963
+
+
+row =
+
+        4818
+
+
+row =
+
+        5569
+
+
+row =
+
+        7495
+
+
+row =
+
+        7539
+
+
+row =
+
+        7683
+
+
+row =
+
+        8160
+
+
+row =
+
+        8078
+
+
+row =
+
+        8269
+
+
+row =
+
+        7753
+
+
+row =
+
+        7954
+
+
+row =
+
+        8499
+
+
+row =
+
+        8509
+
+
+row =
+
+        7501
+
+
+row =
+
+        7647
+
+
+row =
+
+        7403
+
+
+row =
+
+        7982
+
+
+row =
+
+        1976
+
+
+row =
+
+        6207
+
+
+row =
+
+        7832
+
+
+row =
+
+        7942
+
+
+row =
+
+        1267
+
+
+row =
+
+        5934
+
+
+row =
+
+        6854
+
+
+row =
+
+        7127
+
+
+row =
+
+        7668
+
+
+row =
+
+        8122
+
+
+row =
+
+        7750
+
+
+row =
+
+        8353
+
+
+row =
+
+        7798
+
+
+row =
+
+        7917
+
+
+row =
+
+        7551
+
+
+row =
+
+        8094
+
+
+row =
+
+        6636
+
+
+row =
+
+        7101
+
+
+row =
+
+        8274
+
+
+row =
+
+        8445
+
+
+row =
+
+        2875
+
+
+row =
+
+        4773
+
+
+row =
+
+        6792
+
+
+row =
+
+        7209
+
+
+row =
+
+        8496
+
+
+row =
+
+        8560
+
+
+row =
+
+        8159
+
+
+row =
+
+        8655
+
+
+row =
+
+        4991
+
+
+row =
+
+        7207
+
+
+row =
+
+        7274
+
+
+row =
+
+        7837
+
+
+row =
+
+        8120
+
+
+row =
+
+        8385
+
+
+row =
+
+        7002
+
+
+row =
+
+        8532
+
+
+row =
+
+        7872
+
+
+row =
+
+        8165
+
+
+row =
+
+        8405
+
+
+row =
+
+        8573
+
+
+row =
+
+        7615
+
+
+row =
+
+        8039
+
+
+row =
+
+        8297
+
+
+row =
+
+        8349
+
+
+row =
+
+        8093
+
+
+row =
+
+        8344
+
+
+row =
+
+        8355
+
+
+row =
+
+        8422
+
+
+row =
+
+        8030
+
+
+row =
+
+        8415
+
+
+row =
+
+        8627
+
+
+row =
+
+        8653
+
+
+row =
+
+        7555
+
+
+row =
+
+        7897
+
+
+row =
+
+        8440
+
+
+row =
+
+        8541
+
+
+row =
+
+        8339
+
+
+row =
+
+        8624
+
+
+row =
+
+        8754
+
+
+row =
+
+        8803
+
+
+row =
+
+        7813
+
+
+row =
+
+        8498
+
+
+row =
+
+        7967
+
+
+row =
+
+        8351
+
+
+row =
+
+        8544
+
+
+row =
+
+        8577
+
+
+row =
+
+        7593
+
+
+row =
+
+        8536
+
+
+row =
+
+        8357
+
+
+row =
+
+        8448
+
+
+row =
+
+        8068
+
+
+row =
+
+        8523
+
+
+row =
+
+        8261
+
+
+row =
+
+        8507
+
+
+row =
+
+        8613
+
+
+row =
+
+        8715
+
+
+row =
+
+        7757
+
+
+row =
+
+        8129
+
+
+row =
+
+        7554
+
+
+row =
+
+        8476
+
+
+row =
+
+        7956
+
+
+row =
+
+        8225
+
+
+row =
+
+        8340
+
+
+row =
+
+        8466
+
+
+row =
+
+        7455
+
+
+row =
+
+        8182
+
+
+row =
+
+        8701
+
+
+row =
+
+        8802
+
+
+row =
+
+        8372
+
+
+row =
+
+        8681
+
+
+row =
+
+        8827
+
+
+row =
+
+        8847
+
+
+row =
+
+        5391
+
+
+row =
+
+        6286
+
+
+row =
+
+        7176
+
+
+row =
+
+        7933
+
+
+row =
+
+        6836
+
+
+row =
+
+        7794
+
+
+row =
+
+        8041
+
+
+row =
+
+        8162
+
+
+row =
+
+        7975
+
+
+row =
+
+        8101
+
+
+row =
+
+        8278
+
+
+row =
+
+        8565
+
+
+row =
+
+        7899
+
+
+row =
+
+        8407
+
+
+row =
+
+        7766
+
+
+row =
+
+        8314
+
+
+row =
+
+        7158
+
+
+row =
+
+        8556
+
+
+row =
+
+        8695
+
+
+row =
+
+        8413
+
+
+row =
+
+        8518
+
+
+row =
+
+        8636
+
+
+row =
+
+        8756
+
+
+row =
+
+        8631
+
+
+row =
+
+        8638
+
+
+row =
+
+        8732
+
+
+row =
+
+        8855
+
+
+row =
+
+        6316
+
+
+row =
+
+        6833
+
+
+row =
+
+        8836
+
+
+row =
+
+        8877
+
+
+row =
+
+        7699
+
+
+row =
+
+        7867
+
+
+row =
+
+        8242
+
+
+row =
+
+        8478
+
+
+row =
+
+        8133
+
+
+row =
+
+        8328
+
+
+row =
+
+        8343
+
+
+row =
+
+        8559
+
+
+row =
+
+        8234
+
+
+row =
+
+        8428
+
+
+row =
+
+        8026
+
+
+row =
+
+        8582
+
+
+row =
+
+        6507
+
+
+row =
+
+        8634
+
+
+row =
+
+        8580
+
+
+row =
+
+        8717
+
+
+row =
+
+        7759
+
+
+row =
+
+        8104
+
+
+row =
+
+        7886
+
+
+row =
+
+        8545
+
+
+row =
+
+        8649
+
+
+row =
+
+        8728
+
+
+row =
+
+        8646
+
+
+row =
+
+        8674
+
+
+row =
+
+        7543
+
+
+row =
+
+        8079
+
+
+row =
+
+        8298
+
+
+row =
+
+        8503
+
+
+row =
+
+        8704
+
+
+row =
+
+        8825
+
+
+row =
+
+        8749
+
+
+row =
+
+        8779
+
+
+row =
+
+        4206
+
+
+row =
+
+        5023
+
+
+row =
+
+        6321
+
+
+row =
+
+        7205
+
+
+row =
+
+   212
+
+
+row =
+
+        4207
+
+
+row =
+
+        7043
+
+
+row =
+
+        7316
+
+
+row =
+
+        2939
+
+
+row =
+
+        4764
+
+
+row =
+
+        5856
+
+
+row =
+
+        6814
+
+
+row =
+
+        3520
+
+
+row =
+
+        5353
+
+
+row =
+
+        7083
+
+
+row =
+
+        7681
+
+
+row =
+
+        8475
+
+
+row =
+
+        8564
+
+
+row =
+
+        8680
+
+
+row =
+
+        8797
+
+
+row =
+
+        8558
+
+
+row =
+
+        8762
+
+
+row =
+
+        8672
+
+
+row =
+
+        8757
+
+
+row =
+
+        8752
+
+
+row =
+
+        8776
+
+
+row =
+
+        8647
+
+
+row =
+
+        8676
+
+
+row =
+
+        8570
+
+
+row =
+
+        8753
+
+
+row =
+
+        8597
+
+
+row =
+
+        8747
+
+
+row =
+
+        4829
+
+
+row =
+
+        5765
+
+
+row =
+
+        1064
+
+
+row =
+
+        7601
+
+
+row =
+
+        2998
+
+
+row =
+
+        5736
+
+
+row =
+
+        6396
+
+
+row =
+
+        4960
+
+
+row =
+
+        7421
+
+
+row =
+
+        7930
+
+
+row =
+
+        8388
+
+
+row =
+
+        3010
+
+
+row =
+
+        8029
+
+
+row =
+
+        8238
+
+
+row =
+
+        4631
+
+
+row =
+
+        7459
+
+
+row =
+
+        7519
+
+
+row =
+
+        8206
+
+
+row =
+
+        7592
+
+
+row =
+
+        8470
+
+
+row =
+
+        8115
+
+
+row =
+
+        8495
+
+
+row =
+
+        8609
+
+
+row =
+
+        8668
+
+
+row =
+
+        1035
+
+
+row =
+
+        3893
+
+
+row =
+
+        8809
+
+
+row =
+
+        8839
+
+
+row =
+
+        4664
+
+
+row =
+
+        4723
+
+
+row =
+
+        8416
+
+
+row =
+
+        8691
+
+
+row =
+
+        8550
+
+
+row =
+
+        8684
+
+
+row =
+
+        8770
+
+
+row =
+
+        8798
+
+
+row =
+
+        8406
+
+
+row =
+
+        8578
+
+
+row =
+
+        8192
+
+
+row =
+
+        8504
+
+
+row =
+
+        8651
+
+
+row =
+
+        8763
+
+
+row =
+
+        8685
+
+
+row =
+
+        8818
+
+
+row =
+
+        8149
+
+
+row =
+
+        8402
+
+
+row =
+
+        8454
+
+
+row =
+
+        8527
+
+
+row =
+
+        8751
+
+
+row =
+
+        8814
+
+
+row =
+
+        8787
+
+
+row =
+
+        8892
+
